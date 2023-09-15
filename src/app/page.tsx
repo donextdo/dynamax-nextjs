@@ -1,9 +1,16 @@
-import Image from 'next/image'
+import React from "react";
+import CraftsmanshipLeft from "./Component/Craftsmanship/CraftsmanshipLeft";
+import CraftsmanshipRight from "./Component/Craftsmanship/CraftsmanshipRight";
+import Navbar from "./Component/Navbar/Navbar";
 
-export default function Home() {
+const page = () => {
   return (
     <div>
-      New Project
+      <Navbar />
+      <CraftsmanshipLeft />
+      <CraftsmanshipRight />
     </div>
-  )
-}
+  );
+};
+
+export default page;
