@@ -20,3 +20,10 @@ body {
   color: rgb(var(--foreground-rgb));
  
 }
+
+@font-face {
+  font-family: 'Antic Didone';
+  src: url('/fonts/AnticDidone-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
