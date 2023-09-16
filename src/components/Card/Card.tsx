@@ -10,8 +10,8 @@ export default function Card({ hotdeals }: any) {
         src={hotdeals}
         alt="Hero Image"
         className="object-cover w-full h-full bg-yellow-500"
-        height={100}
-        width={100}
+        height={1000}
+        width={1000}
       />
       <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-20 backdrop-blur-md p-4 pb-2 flex flex-col gap-2">
         <div className="flex items-center justify-between">
