@@ -9,7 +9,7 @@ export default function Card({ hotdeals }: any) {
       <Image
         src={hotdeals}
         alt="Hero Image"
-        className="object-cover w-full h-full bg-yellow-500"
+        className="object-cover w-full h-full "
         height={1000}
         width={1000}
       />
@@ -23,7 +23,7 @@ export default function Card({ hotdeals }: any) {
           <h3 className="text-[1rem] font-[400]">$112,000</h3>
         </div>
         <Link
-          href="/products"
+          href="/product"
           className="text-[#B90000]  text-[1.1rem] text-center py-[.25rem] px-[1.5rem] rounded-[1.2rem] border-[#b90000] border-solid border-2 hover:bg-[#b90000] hover:text-[#fff]"
         >
           Order Now

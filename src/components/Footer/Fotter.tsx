@@ -1,4 +1,7 @@
+import Link from 'next/link'
 import React from 'react'
+import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
+import { GrFacebookOption } from "react-icons/gr";
 
 const Fotter = () => {
     return (
@@ -6,7 +9,7 @@ const Fotter = () => {
             <div className='container mx-auto'>
                 <div className='grid gap-[1.5rem] lg:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-6 border-b-2 border-gray-600 '>
                     <div className='md:col-span-2 flex flex-col items-start gap-6 w-full px-[15px]'>
-                        <div className="text-[1.8rem] text-[#b90000] font-semibold leading-[45px]">
+                        <div className="text-[30px] text-[#b90000] font-semibold leading-[45px]">
                             <a href="#">
                                 <h2>DYNAMAX</h2>
                             </a>
@@ -66,7 +69,7 @@ const Fotter = () => {
                                 />
                             </svg>
                             <p className="text-base font-medium ">
-                                +61 7 0000 0000
+                                +61 4 1024 0836
                             </p>
                         </div>
 
@@ -90,8 +93,26 @@ const Fotter = () => {
 
                     </div>
                 </div>
-                <div>
-                    <p className="text-base font-semibold tracking-wide mt-4">Copyrights &copy; 2021 All Rights Reserved</p>
+                <div className='flex justify-between items-center mt-4'>
+                    <p className="text-base font-semibold tracking-wide ">Copyrights &copy; 2023 All Rights Reserved</p>
+                    <div className="flex flex-row gap-2">
+                            <Link href="https://www.facebook.com">
+                                <button className="border rounded-full p-2 text-[#233a95] bg-white ">
+                                    <GrFacebookOption />
+                                </button>
+                            </Link>
+                            <Link href="https://www.twitter.com">
+                                <button className="border rounded-full p-2 text-[#233a95] bg-white">
+                                    <AiOutlineTwitter />
+                                </button>
+                            </Link>
+                            <Link href="https://www.instagram.com">
+                                <button className="border rounded-full p-2 text-[#233a95] bg-white">
+                                    <AiOutlineInstagram />
+                                </button>
+                            </Link>
+                    </div>
+
                 </div>
 
             </div>

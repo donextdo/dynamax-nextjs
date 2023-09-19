@@ -7,6 +7,8 @@ import Fotter from '@/components/Footer/Fotter'
 import Hero from '@/components/Hero/Hero'
 import Navbar from '@/components/Navbar/Navbar'
 import NewArrivals from '@/components/NewArrivals/NewArrivals'
+import Warrenty from '@/components/Warrenty/Warrenty'
+import AAAA from '@/components/aaaa/AAAA'
 import HotDeals from '@/components/hotdeals/HotDeals'
 import Image from 'next/image'
 
@@ -20,9 +22,12 @@ const page = () => {
       <CraftsmanshipLeft />
       <Dynamaxs />
       <NewArrivals />
+      <Warrenty />
       <CraftsmanshipRight />
       <CommentList />
+      <Warrenty />
       <ContactUs />
+      {/* <AAAA /> */}
       <Fotter />
     </div>
   );

@@ -1,8 +1,12 @@
-
+'use client'
 import React from 'react'
+
+import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
+import "leaflet/dist/leaflet.css";
 
 
 const ContactUs = () => {
+    
     return (
         <div className='container mx-auto px-[16px] py-[40px] grid grid-cols-1  md:grid-cols-5 gap-4'>
             <div className='col-span-2'>
@@ -41,7 +45,7 @@ const ContactUs = () => {
                         />
                     </svg>
                     <p className="text-base font-medium ">
-                        +61 7 0000 0000
+                        +61 4 1024 0836
                     </p>
                 </div>
 
@@ -63,8 +67,16 @@ const ContactUs = () => {
                     </p>
                 </div>
 
-                <div id="map-wrap" className="w-full h-[240px] my-8">
-                    map
+                <div className="w-full h-[240px] my-8">
+                    <MapContainer center={[-37.679866, 145.438597]} zoom={12} style={{ height: '240px' }}>
+                        <TileLayer
+                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        />
+                        
+                            <Marker position={[-37.679866, 145.438597]}/>
+                       
+                    </MapContainer>
                 </div>
 
                 <div className="flex justify-center">
@@ -74,7 +86,7 @@ const ContactUs = () => {
 
             <div className='col-span-3 bg-[#e5e7eb] py-[32px] px-[48px] w-full'>
 
-                <h2 className="text-[1.5rem] mb-[2rem]">Send us a Message</h2>
+                <h2 className="text-[32px] mb-[2rem]">Send us a Message</h2>
 
                 <form>
                     <div className="mb-4 flex flex-col gap-2">
@@ -92,7 +104,7 @@ const ContactUs = () => {
                         </select>
                     </div>
 
-                    <h5 className="font-semibold mt-[1.5rem] text-[1.2rem]">Your Details</h5>
+                    {/* <h5 className="font-semibold mb-4 text-[1.2rem]">Your Details</h5> */}
 
                     <div className="mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="flex flex-col gap-2">
@@ -100,7 +112,7 @@ const ContactUs = () => {
                             <input type="text" className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]" placeholder="Your first name" />
                         </div>
 
-                        <div className="flex flex-col gap-2 ">
+                        <div className="flex flex-col gap-2">
                             <label className="text-base font-medium">Last Name</label>
                             <input type="text" className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]" placeholder="Your last name" />
                         </div>
@@ -123,7 +135,7 @@ const ContactUs = () => {
                         <textarea className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]" rows={4}></textarea>
                     </div>
 
-                    <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] mt-[2rem] px-[12px] py-[6px] rounded">Submit</button>
+                    <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] px-[12px] py-[6px] rounded">Submit</button>
                 </form>
             </div>
 

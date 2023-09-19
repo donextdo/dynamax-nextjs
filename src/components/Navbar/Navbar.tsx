@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Navbar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
         <div className="">
           <div className="flex items-center">
             <div className="text-3xl font-bold text-accent text-[#b90000]">
-              DYNAMAX
+              <Link href="/">DYNAMAX</Link> 
             </div>
           </div>
         </div>

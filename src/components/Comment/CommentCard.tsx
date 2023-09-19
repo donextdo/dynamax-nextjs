@@ -9,7 +9,7 @@ const CommentCard = ({ comment }: any) => {
 
             <div className='mt-4 flex gap-[1rem]'>
                 <div className="w-55 h-55 overflow-hidden rounded-[50%]">
-                    <Image  src={comment.img} alt='watiyan' className='w-full h-full object-cover' height={100} width={100}/>
+                    <Image  src={comment.img} alt='comment' className='w-full h-full object-cover' height={100} width={100}/>
                 </div>
                 <div className="flex flex-col items-start justify-around">
                     <h4 className='text-[1.2rem] leading-[24px] font-normal'>{comment.name}</h4>

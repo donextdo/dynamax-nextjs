@@ -16,7 +16,7 @@ export default function HotDeals() {
       </div>
 
       <Link
-        href="/products"
+        href="/view-more"
         className="bg-[#b90000] text-[#fff] w-[160px] text-center  text-[1.1rem] mt-[2rem] py-[6px] px-[12px] rounded-[.25rem] hover:opacity-80 transition-opacity duration-300 ease-in-out"
       >
         View More
