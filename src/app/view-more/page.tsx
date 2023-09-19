@@ -8,6 +8,7 @@ import img2 from "../../../assets/viewmore/img-2.jpg";
 import img3 from "../../../assets/viewmore/img-3.jpg";
 import Navbar from '@/components/Navbar/Navbar'
 import Fotter from '@/components/Footer/Fotter'
+import test from '../../../assets/comment/avatar.png'
 
 const ViewMorePage = () => {
     return (
@@ -15,14 +16,15 @@ const ViewMorePage = () => {
             <Navbar />
             <section className="h-screen bg-center bg-cover">
                 {/* Use next/image component for the background image */}
-                <Image
+                {/* <Image
                     src={img1}
                     alt="Hero Image"
                     layout="fill"
                     objectFit="cover"
                     objectPosition="center"
                     quality={100}
-                />
+                /> */}
+                 <Image  src={img1} alt='comment' className='w-full h-full object-cover' height={1500} width={1500}/>
                 <div className="hidden md:block">
                     <div className="absolute top-1/2 right-10 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-30 after:z-[-1] after:mix-blend-multiply after:content-['']">
                         <h2 className="font-sans text-[32px]">

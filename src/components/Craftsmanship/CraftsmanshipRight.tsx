@@ -21,7 +21,7 @@ const CraftsmanshipRight = ({ image, changeOrder }: any) => {
         />
       </div>
       <div className="flex-1 p-12 flex flex-col justify-center gap-8 text-center md:text-left md:col-span-2">
-        <div className="text-2xl font-antic-didone text-2.2xl font-semibold leading-6">
+        <div className="text-[35px] font-antic-didone text-2.2xl font-semibold leading-6">
           Premium Craftsmanship
         </div>
         <p className="text-1.1rem max-w-50ch max-w-screen-ch font-barlow text-black tracking-0.5px">

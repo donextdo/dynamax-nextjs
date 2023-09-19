@@ -14,6 +14,7 @@ import Image from 'next/image'
 
 
 const page = () => {
+  
   return (
     <div>
       <Navbar />
@@ -25,7 +26,6 @@ const page = () => {
       <Warrenty />
       <CraftsmanshipRight />
       <CommentList />
-      <Warrenty />
       <ContactUs />
       {/* <AAAA /> */}
       <Fotter />

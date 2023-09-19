@@ -3,7 +3,7 @@ import React from "react";
 
 export default function CardSm({ dynamaxs,title }: any) {
   return (
-    <div className="w-[240px] h-[280px] overflow-hidden rounded-[.5rem] relative ">
+    <div className="w-full h-auto sm:w-[240px] sm:h-[280px] overflow-hidden rounded-[.5rem] relative ">
       <Image
         src={dynamaxs}
         alt="Hero Image"

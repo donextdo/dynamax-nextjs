@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 const ContactUs = () => {
     
     return (
-        <div className='container mx-auto px-[16px] py-[40px] grid grid-cols-1  md:grid-cols-5 gap-4'>
+        <div id="contact-us"  className='container mx-auto px-[16px] py-[60px] grid grid-cols-1  md:grid-cols-5 gap-4 scroll-mt-14'>
             <div className='col-span-2'>
                 <h2 className="text-[2rem] mb-[2rem] ">Contact Us</h2>
                 <p className='max-w-[40ch] text-[1.1rem] mb-[1.1rem]'>
@@ -130,12 +130,14 @@ const ContactUs = () => {
                         </div>
                     </div>
 
-                    <div className="mb-4 flex flex-col gap-2">
+                    <div className="mb-10 flex flex-col gap-2">
                         <label className="text-base font-medium">Comments</label>
                         <textarea className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]" rows={4}></textarea>
                     </div>
 
-                    <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] px-[12px] py-[6px] rounded">Submit</button>
+                    <div className='text-center'>
+                    <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] px-[12px] py-[8px] rounded">Submit</button>
+                    </div>
                 </form>
             </div>
 

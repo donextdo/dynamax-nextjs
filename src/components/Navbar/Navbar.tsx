@@ -59,7 +59,8 @@ export default function Navbar() {
             </li>
             <li className="link relative group">
               <a
-                href="#"
+                href="#contact-us"
+                
                 className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 contact us
@@ -67,8 +68,36 @@ export default function Navbar() {
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
             </li>
           </ul>
+
+          <div className="lg:hidden flex items-center">
+            <button className="btn" onClick={toggleMobileNav}>
+              {mobileNav ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512"
+                  className="w-6 h-6 text-[#b90000]"
+                >
+                  <path
+                    d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  className="w-6 h-6 text-[#b90000]"
+                >
+                  <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                    fill="currentColor"
+                  />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
-        <div className="">
+        {/* <div className="">
           <div className="hidden lg:block flex items-center space-x-4">
             <a
               href="#"
@@ -111,7 +140,7 @@ export default function Navbar() {
               )}
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div
           className={`md:hidden fixed top-[80px] bottom-0 left-0 w-80vw max-w-[360px] bg-white bg-opacity-20 backdrop-blur-md p-8 flex flex-col justify-between transform transition-transform duration-350 ease-in-out ${
@@ -144,13 +173,13 @@ export default function Navbar() {
                   Finance facilities
                 </a>
                 <a
-                  href="#hot-deals"
+                  href="#contact-us"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                 >
                   contact us
                 </a>
             </ul>
-            <div className="flex items-center gap-4 justify-start">
+            {/* <div className="flex items-center gap-4 justify-start">
               <a
                 href="#"
                 className="text-accent text-lg font-medium text-[#b90000]"
@@ -160,7 +189,7 @@ export default function Navbar() {
               <button className="px-4 py-2 text-lg text-[#b90000] border-2 border-[#b90000] rounded-full font-semibold border-2 border-accent rounded-full text-accent hover:bg-[#b90000] hover:text-white">
                 Register
               </button>
-            </div>
+            </div> */}
         </div>
       </div>
     </div>
