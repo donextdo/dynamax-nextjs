@@ -35,8 +35,8 @@ const CommentList = () => {
                 <h2 className="text-[2rem] mb-[2rem]">What our Valuable Customers Say</h2>
 
                 <div className='grid grid-cols-2 gap-[4%]'>
-                    {Comments.slice(0,2).map((comment)=>(
-                        <CommentCard comment={comment}/>
+                    {Comments.slice(0,2).map((comment, index)=>(
+                        <CommentCard comment={comment} key={index}/>
                     ))}
                 </div>
             </div>

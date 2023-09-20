@@ -181,7 +181,7 @@ const ProductPage = () => {
 
                             <h4 className='text-[1.2rem]'>Length</h4>
 
-                            <h4 className='text-[1.2rem] text-right'>37'5"</h4>
+                            <h4 className='text-[1.2rem] text-right'>37&rsquo;5&rdquo;</h4>
 
                         </div>
 
@@ -198,7 +198,7 @@ const ProductPage = () => {
 
                             <h4 className='text-[1.2rem]'>Width</h4>
 
-                            <h4 className='text-[1.2rem] text-right'>8'5"</h4>
+                            <h4 className='text-[1.2rem] text-right'>8&rsquo;5&rdquo;</h4>
 
                         </div>
 
@@ -216,7 +216,7 @@ const ProductPage = () => {
 
                             <h4 className='text-[1.2rem]'>Height</h4>
 
-                            <h4 className='text-[1.2rem] text-right'>11'5"</h4>
+                            <h4 className='text-[1.2rem] text-right'>11&rsquo;5&rdquo;</h4>
 
                         </div>
                     </div>
