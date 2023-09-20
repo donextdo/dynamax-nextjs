@@ -25,7 +25,7 @@ const page = () => {
       <NewArrivals />
       <Warrenty />
       <CraftsmanshipRight />
-      <CommentList />
+      {/* <CommentList /> */}
       <ContactUs />
       {/* <AAAA /> */}
       <Fotter />

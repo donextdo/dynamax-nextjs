@@ -16,7 +16,7 @@ const Fotter = () => {
                         </div>
 
                         <p className='text-[1.1rem] max-w-[40ch]'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Explore top-notch caravans in Melbourne, Victoria, at Dynamax RV Caravans – Your Gateway to Endless Adventures. Whether you&rsquo;re navigating the rugged outback or seeking coastal tranquility, our caravan collection is designed to take you everywhere your heart desires. 
                         </p>
                     </div>
 
@@ -69,7 +69,7 @@ const Fotter = () => {
                                 />
                             </svg>
                             <p className="text-base font-medium ">
-                                +61 4 1024 0836
+                                +61 4 1531 0530
                             </p>
                         </div>
 

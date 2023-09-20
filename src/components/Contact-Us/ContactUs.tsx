@@ -6,9 +6,9 @@ import "leaflet/dist/leaflet.css";
 
 
 const ContactUs = () => {
-    
+
     return (
-        <div id="contact-us"  className='container mx-auto px-[16px] py-[60px] grid grid-cols-1  md:grid-cols-5 gap-4 scroll-mt-14'>
+        <div id="contact-us" className='container mx-auto px-[16px] py-[60px] grid grid-cols-1  md:grid-cols-5 gap-4 scroll-mt-14'>
             <div className='col-span-2'>
                 <h2 className="text-[2rem] mb-[2rem] ">Contact Us</h2>
                 <p className='max-w-[40ch] text-[1.1rem] mb-[1.1rem]'>
@@ -45,7 +45,7 @@ const ContactUs = () => {
                         />
                     </svg>
                     <p className="text-base font-medium ">
-                        +61 4 1024 0836
+                        +61 4 1531 0530
                     </p>
                 </div>
 
@@ -67,8 +67,8 @@ const ContactUs = () => {
                     </p>
                 </div>
 
-                <div className="w-full h-[240px] my-8">
-                    {/* <MapContainer center={[-37.679866, 145.438597]} zoom={12} style={{ height: '240px' }}>
+                {/* <div className="w-full h-[240px] my-8">
+                    <MapContainer center={[-37.679866, 145.438597]} zoom={12} style={{ height: '240px' }}>
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -76,8 +76,8 @@ const ContactUs = () => {
                         
                             <Marker position={[-37.679866, 145.438597]}/>
                        
-                    </MapContainer> */}
-                </div>
+                    </MapContainer>
+                </div> */}
 
                 {/* <div className="flex justify-center">
                     <a href="#" className="mt-[2rem] text-base font-medium border-2 border-[#b90000] text-[#b90000] rounded-[1.2rem] py-1 px-6 hover:bg-[#b90000] hover:text-white">Learn More</a>
@@ -136,7 +136,7 @@ const ContactUs = () => {
                     </div>
 
                     <div className='text-center'>
-                    <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] px-[12px] py-[8px] rounded">Submit</button>
+                        <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] px-[12px] py-[8px] rounded">Submit</button>
                     </div>
                 </form>
             </div>
