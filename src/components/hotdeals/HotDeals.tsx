@@ -10,7 +10,7 @@ import Card from "../Card/Card";
 
 export default function HotDeals() {
   return (
-    <section className="py-10 flex flex-col items-center max-w-screen-xl mx-auto px-10 relative">
+    <section id="hot-deals" className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-xl mx-auto px-10 relative">
       <h2 className="text-center font-$ff-headings text-[32px] mb-8">Hot Deals</h2>
       <div className="grid lg:grid-cols-3 gap-10 w-full md:grid-cols-2 grid-cols-1">
         <Card image={hot1} name="19.6 Rear Door Dynamax Caravan"/>

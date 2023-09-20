@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import img1 from "../../../assets/image_1.jpg"
-import img2 from '../../../assets/range/image-2.jpg'
+import img2 from '../../../assets/range/image-1.jpg'
 
 
 const CraftsmanshipLeft = ({ image, changeOrder }: any) => {
   return (
-    <section className="post  grid grid-cols-1 md:grid-cols-5 ">
+    <section className="post grid grid-cols-1 md:grid-cols-5 ">
       <div className={`md:col-span-3 h-[70vh] w-full ${changeOrder ? "order-2" : ""}`}>
         <Image
           src={img2}
