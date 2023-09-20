@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "../../assets/images/hero/1.jpg";
+import img2 from '../../../assets/range/image-1.jpg'
 
 export default function Hero() {
   return (
     <section className="h-screen bg-center bg-cover">
       {/* Use next/image component for the background image */}
       <Image
-        src={img1}
+        src={img2}
         alt="Hero Image"
         layout="fill"
         objectFit="cover"
@@ -25,12 +26,12 @@ export default function Hero() {
           <p className="md:max-w-[55ch] lg:max-w-[70ch] text-[1.1rem]">
             The Dynamax RV Caravan range can be tailored to suit your requirements. From chassis and suspension options to suit on semi off road or off-road adventures through to layout and options available, make your Dynamax RV Caravan as individual as you. Dynamax RV caravan latest range of caravans give you the freedom to go further than ever before. Whether you are heading to deep into the bush or across the outback, Dynamax RV will make it happen.
           </p>
-          <Link
+          {/* <Link
             href="/view-more"
             className="bg-[#b90000] text-[#fff] text-center w-[160px]  text-[1.1rem] py-[6px] px-[12px] rounded-[.25rem] hover:opacity-80 transition-opacity duration-300 ease-in-out"
           >
             Discover More
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -45,12 +46,12 @@ export default function Hero() {
           <p className="max-w-[70ch] text-[1.1rem]">
             The Dynamax RV Caravan range can be tailored to suit your requirements. From chassis and suspension options to suit on semi off road or off-road adventures through to layout and options available, make your Dynamax RV Caravan as individual as you. Dynamax RV caravan latest range of caravans give you the freedom to go further than ever before. Whether you are heading to deep into the bush or across the outback, Dynamax RV will make it happen.
           </p>
-          <Link
+          {/* <Link
             href="/view-more"
             className="bg-[#b90000] text-[#fff] text-center w-[160px]  text-[1.1rem] py-[6px] px-[12px] rounded-[.25rem] hover:opacity-80 transition-opacity duration-300 ease-in-out"
           >
             Discover More
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

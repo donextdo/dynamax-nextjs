@@ -30,12 +30,12 @@ export default function Dynamaxs() {
         <CardSm dynamaxs={d7} title="22 Island Bunk /Couple-Centre door"/>
         
       </div>
-      <Link
+      {/* <Link
         href="/view-more"
         className="bg-[#b90000] text-[#fff] w-[160px] text-center  text-[1.1rem] mt-[2rem] py-[6px] px-[12px] rounded-[.25rem] hover:opacity-80 transition-opacity duration-300 ease-in-out"
       >
         View More
-      </Link>
+      </Link> */}
     </div>
   );
 }
