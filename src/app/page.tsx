@@ -22,7 +22,7 @@ const page = () => {
       <HotDeals />
       <CraftsmanshipLeft />
       <Dynamaxs />
-      <NewArrivals />
+      {/* <NewArrivals /> */}
       <Warrenty />
       <CraftsmanshipRight />
       {/* <CommentList /> */}

@@ -10,13 +10,13 @@ const Fotter = () => {
                 <div className='grid gap-[1.5rem] lg:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-6 border-b-2 border-gray-600 '>
                     <div className='md:col-span-2 flex flex-col items-start gap-6 w-full px-[15px]'>
                         <div className="text-[30px] text-[#b90000] font-semibold leading-[45px]">
-                            <a href="#">
+                            <a href="/">
                                 <h2>DYNAMAX</h2>
                             </a>
                         </div>
 
                         <p className='text-[1.1rem] max-w-[40ch]'>
-                        Explore top-notch caravans in Melbourne, Victoria, at Dynamax RV Caravans – Your Gateway to Endless Adventures. Whether you&rsquo;re navigating the rugged outback or seeking coastal tranquility, our caravan collection is designed to take you everywhere your heart desires. 
+                        Dynamax RV established in year 2022 with wealth of industry experience and targeting to build 2-3 vans per month. We have a capacity to growth for 3 caravan’s per week. We are using very modern accessories, materials from reputed Australian companies to finish our caravans.
                         </p>
                     </div>
 
@@ -25,19 +25,19 @@ const Fotter = () => {
 
                         <ul className="flex flex-col items-start gap-4">
                             <li className="text-base font-medium capitalize relative">
-                                <a href="#" className='hover:text-[#b90000]'>hot deals</a>
+                                <a href="#hot-deals" className='hover:text-[#b90000]'>hot deals</a>
                             </li>
                             <li className="text-base font-medium capitalize relative">
-                                <a href="#" className='hover:text-[#b90000]'>new arrivals</a>
+                                <a href="#our-range" className='hover:text-[#b90000]'>our range</a>
                             </li>
                             <li className="text-base font-medium capitalize relative">
-                                <a href="#" className='hover:text-[#b90000]'>service & repairs</a>
+                                <a href="#warrenty" className='hover:text-[#b90000]'>service</a>
                             </li>
-                            <li className="text-base font-medium capitalize relative">
+                            {/* <li className="text-base font-medium capitalize relative">
                                 <a href="#" className='hover:text-[#b90000]'>Finance facilities</a>
-                            </li>
+                            </li> */}
                             <li className="text-base font-medium capitalize relative">
-                                <a href="#" className='hover:text-[#b90000]'>contact us</a>
+                                <a href="#contact-us" className='hover:text-[#b90000]'>contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -95,7 +95,7 @@ const Fotter = () => {
                 </div>
                 <div className='flex justify-between items-center mt-4'>
                     <p className="text-base font-semibold tracking-wide ">Copyrights &copy; 2023 All Rights Reserved</p>
-                    <div className="flex flex-row gap-2">
+                    {/* <div className="flex flex-row gap-2">
                             <Link href="https://www.facebook.com">
                                 <button className="border rounded-full p-2 text-[#233a95] bg-white ">
                                     <GrFacebookOption />
@@ -111,7 +111,7 @@ const Fotter = () => {
                                     <AiOutlineInstagram />
                                 </button>
                             </Link>
-                    </div>
+                    </div> */}
 
                 </div>
 

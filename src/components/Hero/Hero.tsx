@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "../../assets/images/hero/1.jpg";
-import img2 from '../../../assets/range/image-1.jpg'
+import img2 from '../../../assets/range/image-2.jpg'
 
 export default function Hero() {
   return (

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Warrenty = () => {
   return (
-    <div className='bg-[#e5e7eb]'>
-            <div className='container mx-auto px-[15px] py-[60px] text-center  max-w-7xl'>
+    <div id="warrenty" className='bg-[#e5e7eb] scroll-mt-14'>
+            <div className=' container mx-auto px-[15px] py-[60px] text-center  max-w-7xl'>
                 <h2 className="text-[2rem] mb-[1rem]">Warranty</h2>
 
                 <div className=''>

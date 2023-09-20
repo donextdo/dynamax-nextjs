@@ -23,7 +23,7 @@ export default function Navbar() {
           <ul className="hidden lg:block lg:flex space-x-4">
             <li className="link relative group">
               <a
-                href="#"
+                href="#hot-deals"
                 className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 hot deals
@@ -32,23 +32,23 @@ export default function Navbar() {
             </li>
             <li className="link relative group">
               <a
-                href="#"
+                href="#our-range"
                 className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
-                new arrivals
+                our range
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
             </li>
             <li className="link relative group">
               <a
-                href="#"
+                href="#warrenty"
                 className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
-                service & repairs
+                service
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
             </li>
-            <li className="link relative group">
+            {/* <li className="link relative group">
               <a
                 href="#"
                 className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
@@ -56,7 +56,7 @@ export default function Navbar() {
                 Finance facilities
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
-            </li>
+            </li> */}
             <li className="link relative group">
               <a
                 href="#contact-us"
@@ -155,23 +155,23 @@ export default function Navbar() {
                   hot deals
                 </a>
                 <a
-                  href="#new-arrivals"
+                  href="#our-range"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                 >
-                  new arrivals
+                  our range
                 </a>
                 <a
-                  href="#hot-deals"
+                  href="#warrenty"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                 >
-                  service & repairs
+                  service
                 </a>
-                <a
+                {/* <a
                   href="#hot-deals"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                 >
                   Finance facilities
-                </a>
+                </a> */}
                 <a
                   href="#contact-us"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
