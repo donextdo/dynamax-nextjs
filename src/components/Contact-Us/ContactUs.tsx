@@ -68,7 +68,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="w-full h-[240px] my-8">
-                    <MapContainer center={[-37.679866, 145.438597]} zoom={12} style={{ height: '240px' }}>
+                    {/* <MapContainer center={[-37.679866, 145.438597]} zoom={12} style={{ height: '240px' }}>
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -76,12 +76,12 @@ const ContactUs = () => {
                         
                             <Marker position={[-37.679866, 145.438597]}/>
                        
-                    </MapContainer>
+                    </MapContainer> */}
                 </div>
 
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                     <a href="#" className="mt-[2rem] text-base font-medium border-2 border-[#b90000] text-[#b90000] rounded-[1.2rem] py-1 px-6 hover:bg-[#b90000] hover:text-white">Learn More</a>
-                </div>
+                </div> */}
             </div>
 
             <div className='col-span-3 bg-[#e5e7eb] py-[32px] px-[48px] w-full'>
