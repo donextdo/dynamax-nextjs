@@ -23,7 +23,7 @@ export default function Dynamaxs() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[2rem] w-full max-w-7xl mx-auto px-10 relative">
         <CardSm dynamaxs={d1} title="18.2 East west -Centre door"/>
         <CardSm dynamaxs={d2} title="19.6 East West/Bunk - Centre door"/>
-        <CardSm dynamaxs={d3} title="19.6 Island Couple -Rear door"/>
+        <CardSm dynamaxs={d7} title="19.6 Island Couple -Rear door"/>
         <CardSm dynamaxs={d4} title="20.6 Island Couple-Centre door"/>
         <CardSm dynamaxs={d5} title="21.6 Island Couple-Centre door"/>
         <CardSm dynamaxs={d6} title="21.6 Island Bunk /Couple-Centre door"/>
