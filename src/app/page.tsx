@@ -24,7 +24,7 @@ const page = () => {
       <Dynamaxs />
       {/* <NewArrivals /> */}
       <Warrenty />
-      <CraftsmanshipRight />
+      {/* <CraftsmanshipRight /> */}
       {/* <CommentList /> */}
       <ContactUs />
       {/* <AAAA /> */}
