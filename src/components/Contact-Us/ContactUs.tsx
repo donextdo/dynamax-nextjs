@@ -136,7 +136,7 @@ const ContactUs = () => {
                     </div>
 
                     <div className='text-center'>
-                        <button type="submit" className="w-[10rem] bg-[#b90000]  text-white text-[1.1rem] px-[12px] py-[8px] rounded">Submit</button>
+                        <button type="submit" className="w-[10rem] bg-[#b90000] text-white text-[1.1rem] px-[12px] py-[8px] rounded">Submit</button>
                     </div>
                 </form>
             </div>

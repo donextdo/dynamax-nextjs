@@ -1,6 +1,8 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import logo1 from '../../../assets/logo/logo-2.jpg'
 
 export default function Navbar() {
   const [mobileNav, setMobileNav] = useState(false);
@@ -14,17 +16,19 @@ export default function Navbar() {
       <div className=" flex items-center justify-between h-20 md:px-[40px] px-[16px]">
         <div className="">
           <div className="flex items-center">
-            <div className="text-3xl font-bold text-accent text-[#b90000]">
-              <Link href="/">DYNAMAX</Link> 
+            <div className="text-3xl font-bold text-accent text-[#b90000] h-16 w-auto">
+            <Image  src={logo1} alt='comment' className='w-full h-full object-cover' height={500} width={500}/>
+              {/* <Link href="/">DYNAMAX</Link>  */}
             </div>
           </div>
         </div>
         <div className="">
-          <ul className="hidden lg:block lg:flex space-x-4">
+          <div className="hidden lg:block">
+          <ul className=" lg:flex space-x-4">
             <li className="link relative group">
               <a
                 href="#hot-deals"
-                className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 hot deals
               </a>
@@ -33,7 +37,7 @@ export default function Navbar() {
             <li className="link relative group">
               <a
                 href="#our-range"
-                className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 our range
               </a>
@@ -42,7 +46,7 @@ export default function Navbar() {
             <li className="link relative group">
               <a
                 href="#warrenty"
-                className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 service
               </a>
@@ -51,7 +55,7 @@ export default function Navbar() {
             {/* <li className="link relative group">
               <a
                 href="#"
-                className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 Finance facilities
               </a>
@@ -61,13 +65,15 @@ export default function Navbar() {
               <a
                 href="#contact-us"
                 
-                className="block py-2 px-4 text-base font-medium font-semibold capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 contact us
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
             </li>
           </ul>
+          </div>
+        
 
           <div className="lg:hidden flex items-center">
             <button className="btn" onClick={toggleMobileNav}>
@@ -143,26 +149,29 @@ export default function Navbar() {
         </div> */}
 
         <div
-          className={`md:hidden fixed top-[80px] bottom-0 left-0 w-80vw max-w-[360px] bg-white bg-opacity-20 backdrop-blur-md p-8 flex flex-col justify-between transform transition-transform duration-350 ease-in-out ${
+          className={`lg:hidden fixed top-[80px] bottom-0 left-0 w-[80vw] max-w-[360px] bg-gray-400 bg-opacity-70 backdrop-blur-md p-8 flex flex-col justify-between transform transition-transform duration-350 ease-in-out ${
             mobileNav ? "translate-x-0" : "-translate-x-full"
           }`}
         >
             <ul className="flex flex-col gap-2 justify-start">
                 <a
                   href="#hot-deals"
-                  className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+                  className="block py-[0.8rem] font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+                  onClick={()=>{setMobileNav(false)}}
                 >
                   hot deals
                 </a>
                 <a
                   href="#our-range"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+                  onClick={()=>{setMobileNav(false)}}
                 >
                   our range
                 </a>
                 <a
                   href="#warrenty"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+                  onClick={()=>{setMobileNav(false)}}
                 >
                   service
                 </a>
@@ -175,6 +184,7 @@ export default function Navbar() {
                 <a
                   href="#contact-us"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+                  onClick={()=>{setMobileNav(false)}}
                 >
                   contact us
                 </a>
