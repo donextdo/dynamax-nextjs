@@ -15,12 +15,9 @@ export default function Navbar() {
     <div className="fixed top-0 left-0 right-0 bg-white shadow-md w-full z-50">
       <div className=" flex items-center justify-between h-20 md:px-[40px] px-[16px]">
         <div className="">
-          <div className="flex items-center">
-            <div className="text-3xl font-bold text-accent text-[#b90000] h-16 w-auto">
+            <div className="text-3xl font-bold text-accent text-[#b90000] h-16 w-[170px]">
             <Image  src={logo1} alt='comment' className='w-full h-full object-cover' height={500} width={500}/>
-              {/* <Link href="/">DYNAMAX</Link>  */}
             </div>
-          </div>
         </div>
         <div className="">
           <div className="hidden lg:block">
