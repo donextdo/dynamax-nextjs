@@ -6,6 +6,9 @@ import img3 from "../../assets/images/hotdeals/3.jpg";
 import hot1 from '../../../assets/viewmore/hot-1.jpg'
 import hot2 from '../../../assets/viewmore/hot-2.jpg'
 import hot3 from '../../../assets/viewmore/hot-3.jpg'
+import hot4 from '../../../assets/viewmore/hot-4.jpg'
+import hot5 from '../../../assets/viewmore/hot-5.jpg'
+import hot6 from '../../../assets/viewmore/hot-6.jpg'
 import Card from "../Card/Card";
 
 export default function HotDeals() {
@@ -13,9 +16,9 @@ export default function HotDeals() {
     <section id="hot-deals" className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-xl mx-auto px-10 relative">
       <h2 className="text-center font-$ff-headings text-[32px] mb-8">Hot Deals</h2>
       <div className="grid lg:grid-cols-3 gap-10 w-full md:grid-cols-2 grid-cols-1">
-        <Card image={hot1} name="19.6 Rear Door Dynamax Caravan"/>
-        <Card image={hot2} name="19.6 East West Bed"/>
-        <Card image={hot3} name="Legacy Family Tourer"/>
+        <Card image={hot4} name="19.6 Rear Door Dynamax Caravan"/>
+        <Card image={hot5} name="19.6 East West Bed"/>
+        <Card image={hot6} name="Legacy Family Tourer"/>
       </div>
 
       {/* <Link
