@@ -7,7 +7,7 @@ const Warrenty = () => {
                 <h2 className="text-[2rem] mb-[1rem]">Warranty</h2>
 
                 <div className=''>
-                We are fully committed to ensuring customer satisfaction and devote maximum attention to delivering the caravan of our customers' dreams on time. With all aspects of design, manufacturing, and components produced in-house, customers can be confident that the Dynamax team prioritizes their safety and best interests. Our comprehensive warranty policy extends support even beyond the warranty period, offering solutions at a reasonable cost.
+                We are fully committed to ensuring customer satisfaction and devote maximum attention to delivering the caravan of our customers&apos; dreams on time. With all aspects of design, manufacturing, and components produced in-house, customers can be confident that the Dynamax team prioritizes their safety and best interests. Our comprehensive warranty policy extends support even beyond the warranty period, offering solutions at a reasonable cost.
                 </div>
             </div>
         </div>
