@@ -13,7 +13,7 @@ export default function Card({ image, name }: any) {
         height={1000}
         width={1000}
       />
-      <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-20 backdrop-blur-md p-4 pb-2 flex flex-col gap-2 h-[8vh]">
+      <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-20 backdrop-blur-md p-4 flex flex-col min-h-[8vh]">
         <div className="flex items-center justify-between">
           <h3 className="text-[1.1rem] font-[700]">{name}</h3>
           {/* <h3 className="text-[1.1rem] font-[700]">$90,400</h3> */}
