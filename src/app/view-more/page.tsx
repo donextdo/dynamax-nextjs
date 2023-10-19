@@ -3,12 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 import img1 from '../../../assets/hero2.jpg'
 import Card from '@/components/Card/Card'
-import img4 from "../../../assets/viewmore/img-1.jpg";
-import img2 from "../../../assets/viewmore/img-2.jpg";
-import img3 from "../../../assets/viewmore/img-3.jpg";
 import Navbar from '@/components/Navbar/Navbar'
 import Fotter from '@/components/Footer/Fotter'
 import test from '../../../assets/comment/avatar.png'
+import img4 from '../../../assets/viewmore/hot-4.jpg'
+
 
 const ViewMorePage = () => {
     return (
@@ -82,8 +81,8 @@ const ViewMorePage = () => {
 
             <section className="container mx-auto px-2 mt-[2rem] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[2rem] mb-10">
                 <Card image={img4} />
-                <Card image={img2} />
-                <Card image={img3} />
+                <Card image={img4} />
+                <Card image={img4} />
                 <Card image={img4} />
                 <Card image={img4} />
                 <Card image={img4} />

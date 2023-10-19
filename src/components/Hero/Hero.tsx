@@ -36,7 +36,7 @@ export default function Hero() {
           Looking for adventure...
           </h2>
           <p className="max-w-[70ch] text-[16px]">
-          Dynamax RV, situated in Somerton-Melbourne, is a family-operated enterprise with profound expertise in caravan manufacturing. Our guiding principle, "small details make a big difference," underscores our dedication to precise finishing, premium fabrics, and discerning textures. This emphasis on detail is discernible not just in the ultimate design but also in the subsequent customer service. Dynamax RV is committed to providing its customers with an exceptional caravan and user experience.
+          Dynamax RV, situated in Somerton-Melbourne, is a family-operated enterprise with profound expertise in caravan manufacturing. Our guiding principle, &ldquo;small details make a big difference,&ldquo; underscores our dedication to precise finishing, premium fabrics, and discerning textures. This emphasis on detail is discernible not just in the ultimate design but also in the subsequent customer service. Dynamax RV is committed to providing its customers with an exceptional caravan and user experience.
           </p>
           <p className="max-w-[70ch] text-[16px]">
           The Dynamax Caravan range is customizable to meet your specific needs. Tailor everything from chassis and suspension options for on semi off-road or off-road adventures to layout and available features, making your Dynamax Caravan as unique as you are. With our latest range of caravans, you have the freedom to explore farther than ever before. Whether venturing deep into the bush or traversing the outback, Dynamax will make your journey possible.
