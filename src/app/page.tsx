@@ -21,7 +21,7 @@ const page = () => {
       <Hero />
       <HotDeals />
       <CraftsmanshipLeft />
-      <Dynamaxs />
+      {/* <Dynamaxs /> */}
       {/* <NewArrivals /> */}
       <Warrenty />
       {/* <CraftsmanshipRight /> */}
