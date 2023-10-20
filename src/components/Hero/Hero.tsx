@@ -5,7 +5,7 @@ import img1 from '../../../assets/viewmore/hot-5.jpg'
 
 export default function Hero() {
   return (
-    <section className="w-full h-auto md:h-screen bg-center bg-cover mt-20">
+    <section id="about-us" className="scroll-mt-14 w-full h-auto md:h-screen bg-center bg-cover mt-20">
       {/* Use next/image component for the background image */}
       <div className="h-auto md:h-screen w-full">
       <Image  src={img1} alt='comment' className='w-full h-full object-cover' height={1500} width={1500}/>
@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="hidden md:block">
         <div className="absolute top-1/2 right-10 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-30 after:z-[-1] after:mix-blend-multiply after:content-['']">
           <h2 className="text-[32px]">
-            Looking for adventure...
+            About us
           </h2>
           <p className="md:max-w-[55ch] lg:max-w-[70ch] text-[1.1rem]">
           Dynamax RV, situated in Somerton-Melbourne, is a family-operated enterprise with profound expertise in caravan manufacturing. Our guiding principle, &ldquo;small details make a big difference,&ldquo; underscores our dedication to precise finishing, premium fabrics, and discerning textures. This emphasis on detail is discernible not just in the ultimate design but also in the subsequent customer service. Dynamax RV is committed to providing its customers with an exceptional caravan and user experience.

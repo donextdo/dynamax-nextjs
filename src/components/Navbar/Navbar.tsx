@@ -24,10 +24,10 @@ export default function Navbar() {
           <ul className=" lg:flex space-x-4">
             <li className="link relative group">
               <a
-                href="#hot-deals"
+                href="#about-us"
                 className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
-                hot deals
+                about us
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
             </li>
@@ -45,19 +45,19 @@ export default function Navbar() {
                 href="#warrenty"
                 className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
-                service
+                Warrenty
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
             </li>
-            {/* <li className="link relative group">
+            <li className="link relative group">
               <a
-                href="#"
+                href="#premium-craftsmanship"
                 className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
-                Finance facilities
+                Premium Craftsmanship
               </a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
-            </li> */}
+            </li>
             <li className="link relative group">
               <a
                 href="#contact-us"
@@ -152,11 +152,11 @@ export default function Navbar() {
         >
             <ul className="flex flex-col gap-2 justify-start">
                 <a
-                  href="#hot-deals"
+                  href="#about-us"
                   className="block py-[0.8rem] font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                   onClick={()=>{setMobileNav(false)}}
                 >
-                  hot deals
+                  about us
                 </a>
                 <a
                   href="#our-range"
@@ -170,14 +170,14 @@ export default function Navbar() {
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                   onClick={()=>{setMobileNav(false)}}
                 >
-                  service
+                  Warrenty
                 </a>
-                {/* <a
-                  href="#hot-deals"
+                <a
+                  href="#premium-craftsmanship"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
                 >
-                  Finance facilities
-                </a> */}
+                  Premium Craftsmanship
+                </a>
                 <a
                   href="#contact-us"
                   className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
