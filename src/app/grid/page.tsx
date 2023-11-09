@@ -40,7 +40,7 @@ export default function GridPage({ searchParams }: PaginationParams) {
   return (
     <>
     <Navbar />
-    <div className="p-20">
+    <div className="p-5 pt-20 lg:p-20">
       <Nav gallery={gallery}/>
       <SiteGrid
         contentMain={<PhotoGrid gallery={gallery} />}
