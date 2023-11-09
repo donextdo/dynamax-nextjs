@@ -16,7 +16,9 @@ export default function Navbar() {
       <div className=" flex items-center justify-between h-20 md:px-[40px] px-[16px]">
         <div className="">
             <div className="text-3xl font-bold text-accent text-[#b90000] h-16 w-[170px]">
+              <a href="/">
             <Image  src={logo1} alt='comment' className='w-full h-full object-cover' height={500} width={500}/>
+            </a>
             </div>
         </div>
         <div className="">
