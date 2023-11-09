@@ -28,7 +28,7 @@ export default function ImageViewer() {
   }
 
   return (
-    <><Navbar /><div className="w-full h-[100vh] flex justify-center items-center">
+    <><Navbar /><div className="lg:w-full h-[100vh] flex justify-center items-center">
       {/* Close button */}
       <button
         onClick={handleCloseClick}
@@ -49,7 +49,7 @@ export default function ImageViewer() {
       <img
         src={selectedPhoto}
         alt="selected photo"
-        className="object-cover w-[auto] h-[100vh]" />
+        className="object-contain lg:object-cover w-[auto] h-[100vh]" />
     </div></>
   );
 }

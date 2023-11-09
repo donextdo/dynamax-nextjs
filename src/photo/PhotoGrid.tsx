@@ -29,7 +29,7 @@ export default function PhotoGrid({
 
   const gridStyles = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',
+    gridTemplateColumns: 'lg:repeat(4, 1fr)',
     gridGap: '0.5rem',
     width:'max-content',
   };
@@ -45,7 +45,7 @@ export default function PhotoGrid({
           'grid gap-1',
           small
             ? 'grid-cols-3 xs:grid-cols-6'
-            : 'grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4',
+            : 'grid-cols-1 sm:grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4',
           'items-center',
         )}
         classNameItem={'h-[288px]'}
