@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-export default function Card({ image, name }: any) {
-  // console.log("hotdeals", hotdeals);
+export default function Card({ image, name, gallery }: any) {
 
   return (
+    <Link href={{ pathname: "/full-frame", query: { gallery: JSON.stringify(gallery) } }} passHref>
     <div className="w-full h-[45vh] flex flex-col overflow-hidden rounded-2xl relative ">
       <Image
         src={image}
@@ -30,5 +30,6 @@ export default function Card({ image, name }: any) {
         </Link> */}
       </div>
     </div>
+    </Link>
   );
 }
