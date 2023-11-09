@@ -1,4 +1,5 @@
 "use client";
+import Navbar from "@/components/Navbar/Navbar";
 import { useEffect, useState } from "react";
 
 export default function ImageViewer() {
@@ -27,11 +28,11 @@ export default function ImageViewer() {
   }
 
   return (
-    <div className="w-full h-[100vh] flex justify-center items-center">
+    <><Navbar /><div className="w-full h-[100vh] flex justify-center items-center">
       {/* Close button */}
       <button
         onClick={handleCloseClick}
-        className="absolute top-4 right-4 bg-rgb(255 255 255 / 0.5)  px-4 py-2 rounded-full"
+        className="absolute top-20 right-4 bg-rgb(255 255 255 / 0.5)  px-4 py-2 rounded-full"
       >
         {/* <Close/> */}
         <svg
@@ -48,8 +49,7 @@ export default function ImageViewer() {
       <img
         src={selectedPhoto}
         alt="selected photo"
-        className="object-cover w-[auto] h-[100vh]"
-      />
-    </div>
+        className="object-cover w-[auto] h-[100vh]" />
+    </div></>
   );
 }

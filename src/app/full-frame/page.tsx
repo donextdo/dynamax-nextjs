@@ -2,6 +2,7 @@
 
 import AnimateItems from "@/components/Gallery/AnimateItems";
 import Nav from "@/components/Gallery/Nav";
+import Navbar from "@/components/Navbar/Navbar";
 import PhotoLarge from "@/photo/PhotoLarge";
 import PhotosEmptyState from "@/photo/PhotosEmptyState";
 import {
@@ -38,7 +39,7 @@ export default function FullFrame({ searchParams }: PaginationParams) {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="space-y-4 p-20">
         <Nav gallery={gallery} />
         <AnimateItems

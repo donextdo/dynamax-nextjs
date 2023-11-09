@@ -8,6 +8,7 @@ import {
 } from '@/site/pagination';
 import Nav from '@/components/Gallery/Nav';
 import { useEffect, useState } from 'react';
+import Navbar from '@/components/Navbar/Navbar';
 
 export const runtime = 'edge';
 
@@ -38,7 +39,7 @@ export default function GridPage({ searchParams }: PaginationParams) {
 
   return (
     <>
-    {/* <Navbar /> */}
+    <Navbar />
     <div className="p-20">
       <Nav gallery={gallery}/>
       <SiteGrid

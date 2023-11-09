@@ -34,6 +34,10 @@ export default function PhotoGrid({
     width:'max-content',
   };
 
+  const classNameItem = {
+    height: '288px'
+  }
+
   return (
     <div className="space-y-4">
       <AnimateItems
@@ -44,6 +48,7 @@ export default function PhotoGrid({
             : 'grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4',
           'items-center',
         )}
+        classNameItem={'h-[288px]'}
         customStyles={gridStyles} // Pass custom styles as a prop
         type={animate === false ? 'none' : undefined}
         duration={fast ? 0.3 : undefined}

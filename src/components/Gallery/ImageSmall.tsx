@@ -23,8 +23,9 @@ export default function ImageSmall({
           alt,
           placeholder: "blur",
           width: IMAGE_SMALL_WIDTH,
-          height: Math.round(IMAGE_SMALL_WIDTH / aspectRatio),
+          height: 288,
         }}
+        style={{height: '288px',}}
       />
     </Link>
   );
