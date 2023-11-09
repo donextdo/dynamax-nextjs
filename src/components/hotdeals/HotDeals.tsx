@@ -20,7 +20,7 @@ export default function HotDeals() {
 
   return (
     <section id="our-range" className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-xl mx-auto px-10 relative">
-      <h2 className="text-center font-$ff-headings text-[32px] mb-8">Our Range</h2>
+      <h2 className="text-center text-black font-$ff-headings text-[32px] mb-8">Our Range</h2>
       <div className="grid lg:grid-cols-3 gap-10 w-full md:grid-cols-2 grid-cols-1">
         <Card image={hot4} name="19.6 Rear Door Dynamax Caravan" gallery={hillsyde}/>
         <Card image={hot5} name="19.6 East West Bed" gallery={eastWestBed}/>

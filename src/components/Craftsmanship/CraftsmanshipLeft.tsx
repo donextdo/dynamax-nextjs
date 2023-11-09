@@ -17,7 +17,7 @@ const CraftsmanshipLeft = ({ image, changeOrder }: any) => {
         />
       </div>
       <div className="flex-1 p-12 flex flex-col justify-center gap-8 md:col-span-2 text-center md:text-left h-full w-full">
-        <div className="text-[35px] text-2.2xl font-semibold leading-10">
+        <div className="text-[35px] text-black text-2.2xl font-semibold leading-10">
           Premium Craftsmanship
         </div>
         <p className="text-1.1rem max-w-50ch max-w-screen-ch font-barlow text-black tracking-0.5px">

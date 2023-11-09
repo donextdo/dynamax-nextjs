@@ -25,7 +25,7 @@ export default function Navbar() {
             <li className="link relative group">
               <a
                 href="#about-us"
-                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 about us
               </a>
@@ -34,7 +34,7 @@ export default function Navbar() {
             <li className="link relative group">
               <a
                 href="#our-range"
-                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 our range
               </a>
@@ -43,7 +43,7 @@ export default function Navbar() {
             <li className="link relative group">
               <a
                 href="#warrenty"
-                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 Warrenty
               </a>
@@ -52,7 +52,7 @@ export default function Navbar() {
             <li className="link relative group">
               <a
                 href="#premium-craftsmanship"
-                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 Premium Craftsmanship
               </a>
@@ -62,7 +62,7 @@ export default function Navbar() {
               <a
                 href="#contact-us"
                 
-                className="block py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
               >
                 contact us
               </a>
