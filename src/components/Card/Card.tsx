@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Card({ image, name, gallery }: any) {
 
   return (
-    <Link href={{ pathname: "/full-frame", query: { gallery: JSON.stringify(gallery) } }} passHref>
+    <Link href={{ pathname: "/grid", query: { gallery: JSON.stringify(gallery) } }} passHref>
     <div className="w-full h-[45vh] flex flex-col overflow-hidden rounded-2xl relative ">
       <Image
         src={image}
