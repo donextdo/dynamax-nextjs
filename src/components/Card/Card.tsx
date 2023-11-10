@@ -9,8 +9,7 @@ export default function Card({ image, name, gallery }: any) {
       <Image
         src={image}
         alt="Hero Image"
-        height={1000}
-        width={1000}
+        fill
         className="object-cover w-full h-full "
       />
       <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-20 backdrop-blur-md p-4 flex flex-col min-h-[8vh]">
