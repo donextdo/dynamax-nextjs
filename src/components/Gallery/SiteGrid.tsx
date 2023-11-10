@@ -17,11 +17,11 @@ export default function SiteGrid({
     <div
       className={cc(
         className,
-        "grid",
+        "xl:grid",
         "grid-cols-1",
         "gap-x-4 lg:gap-x-6",
         "gap-y-4",
-        "max-w-full"
+        "max-w-full",
       )}
     >
       <div

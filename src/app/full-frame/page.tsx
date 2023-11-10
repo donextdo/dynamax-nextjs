@@ -40,7 +40,7 @@ export default function FullFrame({ searchParams }: PaginationParams) {
   return (
     <>
       <Navbar />
-      <div className="space-y-4 p-20">
+      <div className="space-y-4 p-5 pt-20 lg:p-20">
         <Nav gallery={gallery} />
         <AnimateItems
           className="space-y-1 flex flex-col items-center"
