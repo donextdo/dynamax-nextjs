@@ -24,50 +24,70 @@ import EWB23 from "@/assets/images/eastwestbed/23.jpg";
 import EWB24 from "@/assets/images/eastwestbed/24.jpg";
 import EWB25 from "@/assets/images/eastwestbed/25.jpg";
 
-// import HS1 from "@/assets/images/hillsyde/1-3-scaled.jpg";
-// import HS2 from "@/assets/images/hillsyde/2-2-scaled.jpg";
-// import HS3 from "@/assets/images/hillsyde/IMG_1409-scaled.jpg";
-// import HS4 from "@/assets/images/hillsyde/IMG_1410-scaled.jpg";
-// import HS5 from "@/assets/images/hillsyde/IMG_1412-scaled.jpg";
-// import HS6 from "@/assets/images/hillsyde/IMG_1413-scaled.jpg";
-// import HS7 from "@/assets/images/hillsyde/IMG_1415-scaled.jpg";
-// import HS8 from "@/assets/images/hillsyde/IMG_1416-scaled.jpg";
-// import HS9 from "@/assets/images/hillsyde/IMG_1418-scaled.jpg";
-// import HS10 from "@/assets/images/hillsyde/IMG_1419-scaled.jpg";
-// import HS11 from "@/assets/images/hillsyde/IMG_1420-scaled.jpg";
-// import HS12 from "@/assets/images/hillsyde/IMG_1421-scaled.jpg";
-// import HS13 from "@/assets/images/hillsyde/IMG_1422-scaled.jpg";
-// import HS14 from "@/assets/images/hillsyde/IMG_1423-scaled.jpg";
-// import HS15 from "@/assets/images/hillsyde/IMG_1424-scaled.jpg";
-// import HS16 from "@/assets/images/hillsyde/IMG_1425-scaled.jpg";
-// import HS17 from "@/assets/images/hillsyde/IMG_1427-scaled.jpg";
-// import HS18 from "@/assets/images/hillsyde/IMG_1464-scaled.jpg";
-// import HS19 from "@/assets/images/hillsyde/IMG_1465-scaled.jpg";
-// import HS20 from "@/assets/images/hillsyde/IMG_1466-scaled.jpg";
-// import HS21 from "@/assets/images/hillsyde/IMG_6666-scaled.jpg";
+import HS1 from "@/assets/images/hillsyde/1.jpg";
+import HS2 from "@/assets/images/hillsyde/2.jpg";
+import HS3 from "@/assets/images/hillsyde/3.jpg";
+import HS4 from "@/assets/images/hillsyde/4.jpg";
+import HS5 from "@/assets/images/hillsyde/5.jpg";
+import HS6 from "@/assets/images/hillsyde/6.jpg";
+import HS7 from "@/assets/images/hillsyde/7.jpg";
+import HS8 from "@/assets/images/hillsyde/8.jpg";
+import HS9 from "@/assets/images/hillsyde/9.jpg";
+import HS10 from "@/assets/images/hillsyde/10.jpg";
+import HS11 from "@/assets/images/hillsyde/11.jpg";
+import HS12 from "@/assets/images/hillsyde/12.jpg";
+import HS13 from "@/assets/images/hillsyde/13.jpg";
+import HS14 from "@/assets/images/hillsyde/14.jpg";
+import HS15 from "@/assets/images/hillsyde/15.jpg";
+import HS16 from "@/assets/images/hillsyde/16.jpg";
+import HS17 from "@/assets/images/hillsyde/17.jpg";
+import HS18 from "@/assets/images/hillsyde/18.jpg";
+import HS19 from "@/assets/images/hillsyde/19.jpg";
+import HS20 from "@/assets/images/hillsyde/20.jpg";
+import HS21 from "@/assets/images/hillsyde/21.jpg";
 
-// import FT1 from "@/assets/images/familytourer/1-16-scaled.jpg";
-// import FT2 from "@/assets/images/familytourer/2-13-scaled1.jpg";
-// import FT3 from "@/assets/images/familytourer/2-13-scaled.jpg";
-// import FT4 from "@/assets/images/familytourer/3-11-scaled.jpg";
-// import FT5 from "@/assets/images/familytourer/IMG_3196-scaled.jpg";
-// import FT6 from "@/assets/images/familytourer/IMG_3197-scaled.jpg";
-// import FT7 from "@/assets/images/familytourer/IMG_3198-scaled.jpg";
-// import FT8 from "@/assets/images/familytourer/IMG_3199-scaled.jpg";
-// import FT9 from "@/assets/images/familytourer/IMG_3200-scaled.jpg";
-// import FT10 from "@/assets/images/familytourer/IMG_3201-scaled.jpg";
-// import FT11 from "@/assets/images/familytourer/IMG_3202-scaled.jpg";
-// import FT12 from "@/assets/images/familytourer/IMG_3204-scaled.jpg";
-// import FT13 from "@/assets/images/familytourer/IMG_3205-scaled.jpg";
-// import FT14 from "@/assets/images/familytourer/IMG_3206-scaled.jpg";
-// import FT15 from "@/assets/images/familytourer/IMG_3207-scaled.jpg";
-// import FT16 from "@/assets/images/familytourer/IMG_3208-scaled.jpg";
-// import FT17 from "@/assets/images/familytourer/IMG_3210-scaled.jpg";
-// import FT18 from "@/assets/images/familytourer/IMG_3212-scaled.jpg";
-// import FT19 from "@/assets/images/familytourer/IMG_3213-scaled.jpg";
-// import FT20 from "@/assets/images/familytourer/IMG_3214-scaled.jpg";
-// import FT21 from "@/assets/images/familytourer/IMG_3215-scaled.jpg";
-// import FT22 from "@/assets/images/familytourer/IMG_3219-scaled.jpg";
+import FT1 from "@/assets/images/familytourer/1.jpg";
+import FT2 from "@/assets/images/familytourer/2.jpg";
+import FT3 from "@/assets/images/familytourer/3.jpg";
+import FT4 from "@/assets/images/familytourer/4.jpg";
+import FT5 from "@/assets/images/familytourer/5.jpg";
+import FT6 from "@/assets/images/familytourer/6.jpg";
+import FT7 from "@/assets/images/familytourer/7.jpg";
+import FT8 from "@/assets/images/familytourer/8.jpg";
+import FT9 from "@/assets/images/familytourer/9.jpg";
+import FT10 from "@/assets/images/familytourer/10.jpg";
+import FT11 from "@/assets/images/familytourer/11.jpg";
+import FT12 from "@/assets/images/familytourer/12.jpg";
+import FT13 from "@/assets/images/familytourer/13.jpg";
+import FT14 from "@/assets/images/familytourer/14.jpg";
+import FT15 from "@/assets/images/familytourer/15.jpg";
+import FT16 from "@/assets/images/familytourer/16.jpg";
+import FT17 from "@/assets/images/familytourer/17.jpg";
+import FT18 from "@/assets/images/familytourer/18.jpg";
+import FT19 from "@/assets/images/familytourer/19.jpg";
+import FT20 from "@/assets/images/familytourer/20.jpg";
+import FT21 from "@/assets/images/familytourer/21.jpg";
+import FT22 from "@/assets/images/familytourer/22.jpg";
+
+import OR1 from "@/assets/images/offroad/1.jpg";
+import OR2 from "@/assets/images/offroad/2.jpg";
+import OR3 from "@/assets/images/offroad/3.jpg";
+import OR4 from "@/assets/images/offroad/4.jpg";
+import OR5 from "@/assets/images/offroad/5.jpg";
+import OR6 from "@/assets/images/offroad/6.jpg";
+import OR7 from "@/assets/images/offroad/7.jpg";
+import OR8 from "@/assets/images/offroad/8.jpg";
+import OR9 from "@/assets/images/offroad/9.jpg";
+import OR10 from "@/assets/images/offroad/10.jpg";
+import OR11 from "@/assets/images/offroad/11.jpg";
+import OR12 from "@/assets/images/offroad/12.jpg";
+import OR13 from "@/assets/images/offroad/13.jpg";
+import OR14 from "@/assets/images/offroad/14.jpg";
+import OR15 from "@/assets/images/offroad/15.jpg";
+import OR16 from "@/assets/images/offroad/16.jpg";
+import OR17 from "@/assets/images/offroad/17.jpg";
+import OR18 from "@/assets/images/offroad/18.jpg";
+import OR19 from "@/assets/images/offroad/19.jpg";
 
 const eastWestBed = [
   EWB1,
@@ -94,60 +114,78 @@ const eastWestBed = [
   EWB22,
   EWB23,
   EWB24,
-  EWB25
+  EWB25,
 ];
 
-// const hillsyde = [
-//     HS1,
-//     HS2,
-//     HS3,
-//     HS4,
-//     HS5,
-//     // HS6,
-//     // HS7,
-//     // HS8,
-//     // HS9,
-//     // HS10,
-//     // HS11,
-//     // HS12,
-//     // HS13,
-//     // HS14,
-//     // HS15,
-//     // HS16,
-//     // HS17,
-//     // HS18,
-//     // HS19,
-//     // HS20,
-//     // HS21
-// ];
+const hillsyde = [
+  HS1,
+  HS2,
+  HS3,
+  HS4,
+  HS5,
+  HS6,
+  HS7,
+  HS8,
+  HS9,
+  HS10,
+  HS11,
+  HS12,
+  HS13,
+  HS14,
+  HS15,
+  HS16,
+  HS17,
+  HS18,
+  HS19,
+  HS20,
+  HS21,
+];
 
-// const familytourer = [
-//     FT1,
-//     FT2,
-//     FT3,
-//     FT4,
-//     FT5,
-//     // FT6,
-//     // FT7,
-//     // FT8,
-//     // FT9,
-//     // FT10,
-//     // FT11,
-//     // FT12,
-//     // FT13,
-//     // FT14,
-//     // FT15,
-//     // FT16,
-//     // FT17,
-//     // FT18,
-//     // FT19,
-//     // FT20,
-//     // FT21,
-//     // FT22
-// ];
+const familytourer = [
+  FT1,
+  FT2,
+  FT3,
+  FT4,
+  FT5,
+  FT6,
+  FT7,
+  FT8,
+  FT9,
+  FT10,
+  FT11,
+  FT12,
+  FT13,
+  FT14,
+  FT15,
+  FT16,
+  FT17,
+  FT18,
+  FT19,
+  FT20,
+  FT21,
+  FT22,
+];
 
-export {
-  eastWestBed, 
-  // hillsyde, 
-  // familytourer
-};
+const offroad = [
+  OR1,
+  OR2,
+  OR3,
+  OR4,
+  OR5,
+  OR6,
+  OR7,
+  OR8,
+  OR9,
+  OR10,
+  OR11,
+  OR12,
+  OR13,
+  OR14,
+  OR15,
+  OR16,
+  OR17,
+  OR18,
+  OR19,
+];
+
+export { eastWestBed, hillsyde, familytourer, offroad };
