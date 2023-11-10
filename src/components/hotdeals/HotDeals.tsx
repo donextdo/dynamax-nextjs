@@ -10,7 +10,10 @@ import hot4 from '../../../assets/viewmore/hot-4.jpg'
 import hot5 from '../../../assets/viewmore/hot-5.jpg'
 import hot6 from '../../../assets/viewmore/hot-6.jpg'
 import Card from "../Card/Card";
-import {eastWestBed, hillsyde, familytourer} from "@/photo/Images";
+import {eastWestBed, 
+  // hillsyde, 
+  // familytourer
+} from "@/photo/Images";
 
 // const hot4Gallery = [img1,img2, img3];
 // const hot5Gallery = [hot1, hot2, hot3];
@@ -21,10 +24,11 @@ export default function HotDeals() {
   return (
     <section id="our-range" className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-xl mx-auto px-10 relative">
       <h2 className="text-center text-black font-$ff-headings text-[32px] mb-8">Our Range</h2>
-      <div className="grid lg:grid-cols-3 gap-10 w-full md:grid-cols-2 grid-cols-1">
-        <Card image={hot4} name="19.6 Rear Door Dynamax Caravan" gallery={hillsyde}/>
+      <div className="grid lg:grid-cols-4 gap-10 w-full md:grid-cols-2 grid-cols-1">
         <Card image={hot5} name="19.6 East West Bed" gallery={eastWestBed}/>
-        <Card image={hot6} name="Legacy Family Tourer" gallery={familytourer}/>
+        <Card image={hot4} name="19.6 Hillsyde" gallery={eastWestBed}/>
+        <Card image={hot6} name="18.6 Off Road Family Bunk" gallery={eastWestBed}/>
+        <Card image={hot6} name="Dynamax Family Tourer" gallery={eastWestBed}/>
       </div>
 
       {/* <Link
