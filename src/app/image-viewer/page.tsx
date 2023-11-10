@@ -28,7 +28,9 @@ export default function ImageViewer() {
   }
 
   return (
-    <><Navbar /><div className="lg:w-full h-[100vh] flex justify-center items-center">
+    <>
+    <Navbar />
+    <div className="lg:w-full h-[100vh] flex justify-center items-center">
       {/* Close button */}
       <button
         onClick={handleCloseClick}

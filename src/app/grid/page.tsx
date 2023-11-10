@@ -43,6 +43,7 @@ export default function GridPage({ searchParams }: PaginationParams) {
     <div className="p-5 pt-20 lg:p-20">
       <Nav gallery={gallery}/>
       <SiteGrid
+        className='flex justify-center'
         contentMain={<PhotoGrid gallery={gallery} />}
         sideHiddenOnMobile />
 
