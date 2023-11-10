@@ -19,7 +19,7 @@ const page = () => {
     <div>
       <Navbar />
       <Hero />
-      <HotDeals />
+      <HotDeals eastwestbedimages={[]} />
       <CraftsmanshipLeft />
       {/* <Dynamaxs /> */}
       {/* <NewArrivals /> */}

@@ -11,13 +11,14 @@ import hot5 from '../../../assets/viewmore/hot-5.jpg'
 import hot6 from '../../../assets/viewmore/hot-6.jpg'
 import Card from "../Card/Card";
 import {eastWestBed, hillsyde, familytourer} from "@/photo/Images";
+import { getHotDealsProps, HotDealsProps } from "@/photo/imageSet";
 
-// const hot4Gallery = [img1,img2, img3];
-// const hot5Gallery = [hot1, hot2, hot3];
-// const hot6Gallery = [img1,img2, img3,hot1, hot2, hot3]
+export const getStaticProps = getHotDealsProps;
+interface HotDealsComponentProps extends HotDealsProps {}
 
-export default function HotDeals() {
-
+export default function HotDeals({eastwestbedimages}: HotDealsComponentProps) {
+  console.log("eastwestbed images", eastwestbedimages);
+  
   return (
     <section id="our-range" className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-xl mx-auto px-10 relative">
       <h2 className="text-center text-black font-$ff-headings text-[32px] mb-8">Our Range</h2>
