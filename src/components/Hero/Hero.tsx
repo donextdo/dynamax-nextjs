@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import img2 from '../../../assets/range/image-2.jpg'
-import img1 from '../../../assets/viewmore/hot-5.jpg'
+import img1 from '../../../assets/viewmore/hot-5.jpg';
+import image1 from '../../../assets/viewmore/panorama-view.jpg'
 
 export default function Hero() {
   return (
     <section id="about-us" className="scroll-mt-14 w-full h-auto md:h-screen bg-center bg-cover mt-20">
       {/* Use next/image component for the background image */}
       <div className="h-auto md:h-screen w-full">
-      <Image  src={img1} alt='comment' className='w-full h-full object-cover' height={1500} width={1500}/>
+      <Image  src={image1} alt='comment' className='w-full h-full object-cover' fill/>
       </div>
       <div className="hidden md:block">
-        <div className="absolute top-1/2 right-10 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-30 after:z-[-1] after:mix-blend-multiply after:content-['']">
+        <div className="absolute top-1/2 left-12 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-40 after:z-[-1] after:mix-blend-multiply after:content-['']">
           <h2 className="text-[32px]">
             About us
           </h2>
