@@ -12,16 +12,16 @@ export default function Hero() {
       <Image  src={image1} alt='comment' className='w-full h-full object-cover' height={1500} width={1500}/>
       </div>
       <div className="hidden md:block">
-        <div className="absolute top-1/2 left-12 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-40 after:z-[-1] after:mix-blend-multiply after:content-['']">
+        <div className="absolute bottom-[-9rem] right-8 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-40 after:z-[-1] after:mix-blend-multiply after:content-['']">
           <h2 className="text-[32px]">
             About us
           </h2>
           <p className="md:max-w-[55ch] lg:max-w-[70ch] text-[1.1rem]">
           Dynamax RV, situated in Somerton-Melbourne, is a family-operated enterprise with profound expertise in caravan manufacturing. Our guiding principle, &ldquo;small details make a big difference,&ldquo; underscores our dedication to precise finishing, premium fabrics, and discerning textures. This emphasis on detail is discernible not just in the ultimate design but also in the subsequent customer service. Dynamax RV is committed to providing its customers with an exceptional caravan and user experience.
           </p>
-          <p className="md:max-w-[55ch] lg:max-w-[70ch] text-[1.1rem]">
+          {/* <p className="md:max-w-[55ch] lg:max-w-[70ch] text-[1.1rem]">
           The Dynamax Caravan range is customizable to meet your specific needs. Tailor everything from chassis and suspension options for on semi off-road or off-road adventures to layout and available features, making your Dynamax Caravan as unique as you are. With our latest range of caravans, you have the freedom to explore farther than ever before. Whether venturing deep into the bush or traversing the outback, Dynamax will make your journey possible.
-          </p>
+          </p> */}
           {/* <Link
             href="/view-more"
             className="bg-[#b90000] text-[#fff] text-center w-[160px]  text-[1.1rem] py-[6px] px-[12px] rounded-[.25rem] hover:opacity-80 transition-opacity duration-300 ease-in-out"
