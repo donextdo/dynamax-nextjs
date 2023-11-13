@@ -19,7 +19,7 @@ console.log("photo", photo);
         <ImageLarge
           className="w-max-[1080]"
           alt='title'
-          href={`/image-viewer?src=${photo.src}`}
+          href={`/image-viewer?src=${photo}`}
           src={photo}
           priority={priority}
         />

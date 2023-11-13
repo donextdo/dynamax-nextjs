@@ -1,4 +1,8 @@
 module.exports = {
+  images: {
+    domains: ['dynamax-gallery.s3.ap-southeast-2.amazonaws.com'],
+    
+  },
     webpack: (config, { isServer }) => {
       // Add Antic Didone font to Next.js
       config.module.rules.push({

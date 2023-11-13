@@ -21,7 +21,7 @@ export default function ImageSmall({
           className,
           src,
           alt,
-          placeholder: "blur",
+          // placeholder: "blur",
           width: IMAGE_SMALL_WIDTH,
           height: 288,
         }}

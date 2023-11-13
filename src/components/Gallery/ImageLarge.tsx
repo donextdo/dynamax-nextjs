@@ -26,7 +26,7 @@ export default function ImageLarge({
           src,
           alt,
           priority,
-          placeholder: "blur",
+          // placeholder: "blur",
           width: IMAGE_LARGE_WIDTH,
           height: Math.round(IMAGE_LARGE_WIDTH / aspectRatio),
         }}

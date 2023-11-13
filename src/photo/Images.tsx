@@ -89,33 +89,33 @@ import OR17 from "@/assets/images/offroad/17.jpg";
 import OR18 from "@/assets/images/offroad/18.jpg";
 import OR19 from "@/assets/images/offroad/19.jpg";
 
-const eastWestBed = [
-  EWB1,
-  EWB2,
-  EWB3,
-  EWB4,
-  EWB5,
-  // EWB6,
-  // EWB7,
-  // EWB8,
-  // EWB9,
-  // EWB10,
-  // EWB11,
-  // EWB12,
-  // EWB13,
-  // EWB14,
-  // EWB15,
-  // EWB16,
-  // EWB17,
-  // EWB18,
-  // EWB19,
-  // EWB20,
-  // EWB21,
-  // EWB22,
-  // EWB23,
-  // EWB24,
-  // EWB25,
-];
+// const eastWestBed = [
+//   EWB1,
+//   EWB2,
+//   EWB3,
+//   EWB4,
+//   EWB5,
+//   // EWB6,
+//   // EWB7,
+//   // EWB8,
+//   // EWB9,
+//   // EWB10,
+//   // EWB11,
+//   // EWB12,
+//   // EWB13,
+//   // EWB14,
+//   // EWB15,
+//   // EWB16,
+//   // EWB17,
+//   // EWB18,
+//   // EWB19,
+//   // EWB20,
+//   // EWB21,
+//   // EWB22,
+//   // EWB23,
+//   // EWB24,
+//   // EWB25,
+// ];
 
 const hillsyde = [
   HS1,
@@ -188,4 +188,4 @@ const offroad = [
   // OR19,
 ];
 
-export { eastWestBed, hillsyde, familytourer, offroad };
+export {hillsyde, familytourer, offroad };

@@ -8,7 +8,7 @@ export default function PhotoSmall({
   return (
       <ImageSmall
         src={photo}
-        href={`/image-viewer?src=${photo.src}`}
+        href={`/image-viewer?src=${photo}`}
         className="lg:w-full h-[288px] object-fit"
         alt='title'
       />
