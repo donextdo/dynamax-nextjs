@@ -33,7 +33,7 @@ export default function HotDeals() {
     try {
       const response = await axios.get(url);
       // assuming the response is a JSON array of image URLs
-      console.log("response", response);
+      // console.log("response", response);
 
       setter(response.data);
     } catch (error) {
