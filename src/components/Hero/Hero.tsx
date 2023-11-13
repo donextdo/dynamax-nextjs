@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <section id="about-us" className="scroll-mt-14 w-full h-auto md:h-screen bg-center bg-cover mt-20">
       {/* Use next/image component for the background image */}
-      <div className="h-auto md:h-screen w-full">
-      <Image  src={image1} alt='comment' className='w-full h-full object-cover' fill/>
+      <div className="h-auto md:h-[100vh] w-full">
+      <Image  src={image1} alt='comment' className='w-full h-full object-cover' height={1500} width={1500}/>
       </div>
       <div className="hidden md:block">
         <div className="absolute top-1/2 left-12 transform -translate-y-1/2 bg-opacity-70 backdrop-blur-md p-8 text-white flex flex-col gap-8 after:bg-black after:absolute after:inset-0 after:opacity-40 after:z-[-1] after:mix-blend-multiply after:content-['']">
