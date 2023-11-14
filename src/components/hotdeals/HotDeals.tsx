@@ -50,12 +50,12 @@ export default function HotDeals() {
   return (
     <section
       id="our-range"
-      className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-3xl mx-auto px-[30px] lg:px-[55px] relative"
+      className="scroll-mt-14 py-20 flex flex-col items-start max-w-screen-3xl mx-auto px-[30px] lg:px-[55px] relative"
     >
-      <h1 className="text-center text-black font-$ff-headings text-[52px] mb-8 font-semibold">
+      <h1 className="text-start text-black font-$ff-headings text-[52px] mb-10 font-semibold">
         Our Range
       </h1>
-      <div className="grid lg:grid-cols-4 gap-8 w-full md:grid-cols-2 grid-cols-1">
+      <div className="grid lg:grid-cols-4 gap-14 w-full md:grid-cols-2 grid-cols-1 lg:px-20">
         <Card 
           image={hot5} 
           name="19.6 East West Bed" 
@@ -77,13 +77,6 @@ export default function HotDeals() {
           gallery={familytourerImages}
         />
       </div>
-
-      {/* <Link
-        href="/view-more"
-        className="bg-[#b90000] text-[#fff] w-[160px] text-center  text-[1.1rem] mt-[2rem] py-[6px] px-[12px] rounded-[.25rem] hover:opacity-80 transition-opacity duration-300 ease-in-out"
-      >
-        View More
-      </Link> */}
     </section>
   );
 }
