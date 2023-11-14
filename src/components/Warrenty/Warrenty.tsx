@@ -2,11 +2,11 @@ import React from "react";
 
 const Warrenty = () => {
   return (
-    <div id="warrenty" className="bg-[#e5e7eb] scroll-mt-14">
-      <div className=" container mx-auto px-[15px] py-[60px]  max-w-7xl">
+    <div id="warrenty" className="lg:px-[55px] scroll-mt-14">
+      <div className="bg-[#e5e7eb] container px-[15px] py-[60px]  max-w-full rounded-2xl">
         <h1 className="text-[52px] font-semibold text-black mb-[1rem]">Warranty</h1>
         <div className="w-full justify-center flex ">
-        <p className="text-black text-[22px] w-[80%] text-justify">
+        <p className="text-black text-[1.0rem] w-[70%] text-justify">
           We are fully committed to ensuring customer satisfaction and devote
           maximum attention to delivering the caravan of our customers&apos;
           dreams on time. With all aspects of design, manufacturing, and
