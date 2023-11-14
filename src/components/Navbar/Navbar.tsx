@@ -40,8 +40,8 @@ export default function Navbar() {
             </li> */}
               <li className="link relative group">
                 <Link href="/#about-us">
-                  <span className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500">
-                    about us
+                  <span className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500">
+                    ABOUT US
                   </span>
                 </Link>
                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
@@ -50,36 +50,36 @@ export default function Navbar() {
               <li className="link relative group">
                 <a
                   href="/#our-range"
-                  className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
                 >
-                  our range
+                  OUR RANGE
                 </a>
                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
               </li>
               <li className="link relative group">
                 <a
                   href="/#warrenty"
-                  className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
                 >
-                  Warrenty
+                  WARRENTY
                 </a>
                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
               </li>
               <li className="link relative group">
                 <a
                   href="/#premium-craftsmanship"
-                  className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
                 >
-                  Premium Craftsmanship
+                  PREMIUM CRAFTSMANSHIP
                 </a>
                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
               </li>
               <li className="link relative group">
                 <a
                   href="/#contact-us"
-                  className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
                 >
-                  contact us
+                  CONTACT US
                 </a>
                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-accent transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
               </li>
@@ -167,45 +167,45 @@ export default function Navbar() {
           <ul className="flex flex-col gap-2 justify-start">
             <a
               href="/#about-us"
-              className="block py-[0.8rem] font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+              className="block py-[0.8rem] font-medium text-lg link hover:text-accent hover:text-[#b90000]"
               onClick={() => {
                 setMobileNav(false);
               }}
             >
-              about us
+              ABOUT US
             </a>
             <a
               href="/#our-range"
-              className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+              className="block py-2 font-medium text-lg link hover:text-accent hover:text-[#b90000]"
               onClick={() => {
                 setMobileNav(false);
               }}
             >
-              our range
+              OUR RANGE
             </a>
             <a
               href="/#warrenty"
-              className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+              className="block py-2 font-medium text-lg link hover:text-accent hover:text-[#b90000]"
               onClick={() => {
                 setMobileNav(false);
               }}
             >
-              Warrenty
+              WARRENTY
             </a>
             <a
               href="/#premium-craftsmanship"
-              className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+              className="block py-2 font-medium text-lg link hover:text-accent hover:text-[#b90000]"
             >
-              Premium Craftsmanship
+              PREMIUM CRAFTSMANSHIP
             </a>
             <a
               href="/#contact-us"
-              className="block py-2 font-medium text-lg capitalize link hover:text-accent hover:text-[#b90000]"
+              className="block py-2 font-medium text-lg link hover:text-accent hover:text-[#b90000]"
               onClick={() => {
                 setMobileNav(false);
               }}
             >
-              contact us
+              CONTACT US
             </a>
           </ul>
           {/* <div className="flex items-center gap-4 justify-start">

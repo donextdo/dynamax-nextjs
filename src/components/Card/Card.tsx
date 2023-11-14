@@ -2,7 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 export default function Card({ image, name, gallery }: any) {
-
+  const navigateToContactUs = () => {
+    window.location.href = "/#contact-us";
+  };
   return (
     <Link href={{ pathname: "/grid", query: { gallery: JSON.stringify(gallery) } }} passHref>
     <div className="w-full h-[45vh] flex flex-col overflow-hidden rounded-2xl relative ">
@@ -12,9 +14,9 @@ export default function Card({ image, name, gallery }: any) {
         fill
         className="object-cover w-full h-full "
       />
-      <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-20 backdrop-blur-md p-4 flex flex-col min-h-[8vh]">
+      <div className="absolute bottom-4 left-4 rounded-2xl  bg-white backdrop-blur-md p-3 flex flex-col">
         <div className="flex items-center justify-between">
-          <h3 className="text-[1.1rem] font-[700]">{name}</h3>
+          <h3 className="text-[1.5rem] text-black font-[700]">{name}</h3>
           {/* <h3 className="text-[1.1rem] font-[700]">$90,400</h3> */}
         </div>
         <div className="flex items-center justify-between">
@@ -27,6 +29,14 @@ export default function Card({ image, name, gallery }: any) {
         >
           View
         </Link> */}
+      </div>
+
+      <div className="absolute top-4 left-4 rounded-2xl  bg-white bg-opacity-70 backdrop-blur-md p-2">
+        
+      <button className="flex items-center justify-between" onClick={navigateToContactUs}>
+          <h5 className="text-[0.8rem] text-black font-[700]">LEARN DETAILS</h5>
+        </button>
+        
       </div>
     </div>
     </Link>

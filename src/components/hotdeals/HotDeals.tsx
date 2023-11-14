@@ -52,10 +52,10 @@ export default function HotDeals() {
       id="our-range"
       className="scroll-mt-14 py-20 flex flex-col items-center max-w-screen-3xl mx-auto px-[30px] lg:px-[55px] relative"
     >
-      <h2 className="text-center text-black font-$ff-headings text-[32px] mb-8">
+      <h1 className="text-center text-black font-$ff-headings text-[52px] mb-8 font-semibold">
         Our Range
-      </h2>
-      <div className="grid lg:grid-cols-4 gap-3 w-full md:grid-cols-2 grid-cols-1">
+      </h1>
+      <div className="grid lg:grid-cols-4 gap-8 w-full md:grid-cols-2 grid-cols-1">
         <Card 
           image={hot5} 
           name="19.6 East West Bed" 
