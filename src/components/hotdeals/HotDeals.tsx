@@ -14,13 +14,13 @@ export default function HotDeals() {
   const [familytourerImages, setFamilytourerImages] = useState([]);
 
   const eastwestURL =
-    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-eastwestbed/eastwestbed.json";
+    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-eastwestbed/east-west-bed.json";
   const hillsydeURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hillsyde.json";
   const offroadURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/offroad.json";
   const familytourerURL =
-    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-familytourer/familytourer.json";
+    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-familytourer/family-tourer.json";
 
   const getImages = async (
     url: string,
