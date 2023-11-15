@@ -20,7 +20,7 @@ export default function HotDeals() {
   const offroadURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/offroad.json";
   const familytourerURL =
-    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-familytourer/familytourer.json";
+    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-familytourer/family-tourer.json";
 
   const getImages = async (
     url: string,
