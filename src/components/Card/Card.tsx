@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 export default function Card({ image, name, gallery }: any) {
   return (
-    <div className="w-full h-[40vh] flex flex-col overflow-hidden rounded-2xl relative">
+    <div className="w-full h-[40vh] flex flex-col overflow-hidden rounded-2xl relative hover:shadow-2xl hover:scale-[103%] transition-transform duration-300">
       <Link
         href={{
           pathname: "/grid",
@@ -24,15 +24,6 @@ export default function Card({ image, name, gallery }: any) {
         </div>
         <div className="flex items-center justify-between"></div>
       </div>
-
-      {/* <Link
-        href="/#contact-us"
-        className="absolute top-4 left-4 rounded-2xl  bg-white bg-opacity-70 backdrop-blur-md p-2"
-      >
-        <div className="flex items-center justify-between">
-          <h5 className="text-[0.8rem] text-black font-[700]">LEARN DETAILS</h5>
-        </div>
-      </Link> */}
     </div>
   );
 }
