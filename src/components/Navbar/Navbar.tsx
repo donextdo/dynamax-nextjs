@@ -32,7 +32,7 @@ export default function Navbar() {
             <ul className=" lg:flex space-x-4">
               {/* <li className="link relative group">
               <Link href="#about-us">
-                <a className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-red-500">
+                <a className="block text-black py-2 px-4 text-base font-medium capitalize transition-colors hover:border-b-[3px] border-[#97BF04]">
                   about us
                 </a>
               </Link>
@@ -40,7 +40,7 @@ export default function Navbar() {
             </li> */}
               <li className="link relative group">
                 <Link href="/#about-us">
-                  <span className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500">
+                  <span className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-[#97BF04]">
                     ABOUT US
                   </span>
                 </Link>
@@ -50,7 +50,7 @@ export default function Navbar() {
               <li className="link relative group">
                 <a
                   href="/#our-range"
-                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-[#97BF04]"
                 >
                   OUR RANGE
                 </a>
@@ -59,7 +59,7 @@ export default function Navbar() {
               <li className="link relative group">
                 <a
                   href="/#warrenty"
-                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-[#97BF04]"
                 >
                   WARRENTY
                 </a>
@@ -68,7 +68,7 @@ export default function Navbar() {
               <li className="link relative group">
                 <a
                   href="/#premium-craftsmanship"
-                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-[#97BF04]"
                 >
                   PREMIUM CRAFTSMANSHIP
                 </a>
@@ -77,7 +77,7 @@ export default function Navbar() {
               <li className="link relative group">
                 <a
                   href="/#contact-us"
-                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-red-500"
+                  className="block text-black py-2 px-4 text-base font-medium transition-colors hover:border-b-[3px] border-[#97BF04]"
                 >
                   CONTACT US
                 </a>
