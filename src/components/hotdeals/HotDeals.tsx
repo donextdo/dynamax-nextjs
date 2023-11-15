@@ -16,7 +16,7 @@ export default function HotDeals() {
   const eastwestURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-eastwestbed/east-west-bed.json";
   const hillsydeURL =
-    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hillsyde.json";
+    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hill-syde.json";
   const offroadURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/off-road.json";
   const familytourerURL =
