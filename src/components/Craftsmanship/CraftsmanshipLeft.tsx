@@ -6,16 +6,16 @@ const CraftsmanshipLeft = ({changeOrder }: any) => {
   return (
     <section
       id="premium-craftsmanship"
-      className="scroll-mt-14 post grid grid-cols-1 lg:px-[55px]"
+      className="scroll-mt-14 post grid grid-cols-1 lg:px-[55px] py-20"
     >
       <div className="flex flex-col">
           <h1 className="text-[40px] lg:text-[52px] text-black  font-semibold leading-10 px-[30px] lg:px-[0px]">
             Premium Craftsmanship
           </h1>
 
-        <div className="flex-1 p-12 lg:px-20 flex flex-col lg:flex-row justify-center md:col-span-2 text-center md:text-left h-full w-full">
+        <div className="flex-1 p-12 py-20 lg:pr-20 lg:pl-0 flex flex-col lg:flex-row justify-center md:col-span-2 text-center md:text-left h-full w-full">
           <div
-            className={`md:col-span-3 h-[40vh] w-full rounded-2xl ${
+            className={`md:col-span-3 h-[30vh] rounded-2xl ${
               changeOrder ? "order-2" : ""
             }`}
           >

@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <div
       id="contact-us"
-      className="container mx-auto px-[16px] py-[60px] grid grid-cols-1  md:grid-cols-5 gap-4 scroll-mt-14"
+      className="container mx-auto px-[16px] py-20 grid grid-cols-1  md:grid-cols-5 gap-4 scroll-mt-14"
     >
       <div className="col-span-2">
         <h2 className="text-[2rem] text-black mb-[2rem] ">Contact Us</h2>
@@ -73,7 +73,7 @@ const ContactUs = () => {
             />
           </svg>
           <p className="text-base text-black font-medium ">
-            Infor@dynmaxrv.com.au
+            Info@dynmaxrv.com.au
           </p>
         </div>
 

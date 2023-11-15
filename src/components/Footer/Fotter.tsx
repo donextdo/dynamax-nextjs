@@ -84,7 +84,7 @@ const Fotter = () => {
                                 />
                             </svg>
                             <p className="text-base font-medium ">
-                                Infor@dynmaxrv.com.au
+                                Info@dynmaxrv.com.au
                             </p>
                         </div>
 
@@ -156,7 +156,7 @@ const Fotter = () => {
                                     />
                                 </svg>
                                 <p className="text-base text-black font-medium ">
-                                    Infor@dynmaxrv.com.au
+                                    Info@dynmaxrv.com.au
                                 </p>
                             </div>
 
