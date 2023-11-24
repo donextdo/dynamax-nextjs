@@ -16,9 +16,9 @@ export default function HotDeals() {
   const eastwestURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-eastwestbed/east_west_bed.json";
   const hillsydeURL =
-    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hill-syde.json";
+    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hill-syde-2.json";
   const offroadURL =
-    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/off-road-family-bunk.json";
+    "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/off-road-family-bunk-2.json";
   const familytourerURL =
     "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-familytourer/family-tourer.json";
 
