@@ -15,7 +15,7 @@ const CraftsmanshipLeft = ({changeOrder }: any) => {
 
         <div className="flex-1 p-12 py-20 lg:pr-20 lg:pl-0 flex flex-col lg:flex-row justify-center md:col-span-2 text-center md:text-left h-full w-full">
           <div
-            className={`md:col-span-3 h-[30vh] rounded-2xl ${
+            className={`md:col-span-3 lg:h-[30vh] rounded-2xl ${
               changeOrder ? "order-2" : ""
             }`}
           >
@@ -27,7 +27,7 @@ const CraftsmanshipLeft = ({changeOrder }: any) => {
               width={1250}
             />
           </div>
-          <div className="flex lg:mt-5 justify-center max-w-50ch max-w-screen-ch">
+          <div className="flex mt-5 justify-center max-w-50ch max-w-screen-ch">
             <p className="text-[1.0rem] text-justify w-[80%]  font-barlow text-black tracking-0.5px">
               Dynamax RV Caravans take pride in delivering the utmost quality
               workmanship. With a skilled workforce boasting extensive
