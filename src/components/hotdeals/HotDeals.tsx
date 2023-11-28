@@ -1,6 +1,6 @@
 "use client";
-import hot1 from "../../../assets/viewmore/hot-7.jpg";
-import hot4 from "../../../assets/viewmore/hot-4.jpg";
+import hot1 from "../../../assets/viewmore/hot-4.jpg";
+import hot4 from "../../../assets/viewmore/hot-1.jpg";
 import hot5 from "../../../assets/viewmore/hot-5.jpg";
 import hot6 from "../../../assets/viewmore/hot-6.jpg";
 import Card from "../Card/Card";
