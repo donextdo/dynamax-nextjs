@@ -63,7 +63,7 @@ export default function HotDeals() {
         />
         <Card 
           image={hot4} 
-          name="19.6 Hillsyde" 
+          name="19.6 Hillside" 
           gallery={hillsydeImages} 
         />
         <Card
