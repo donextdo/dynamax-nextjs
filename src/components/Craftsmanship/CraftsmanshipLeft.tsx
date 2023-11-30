@@ -12,6 +12,7 @@ const CraftsmanshipLeft = ({changeOrder }: any) => {
           <h1 className="text-[40px] lg:text-[52px] text-black  font-semibold leading-10 px-[30px] lg:px-[0px]">
             Premium Craftsmanship
           </h1>
+          <div className="mx-[30px] lg:mx-[0px] mt-2 h-[8px] w-[100px] bg-[#97BF04]"></div>
 
         <div className="flex-1 p-12 py-20 lg:pr-20 lg:pl-0 flex flex-col lg:flex-row justify-center md:col-span-2 text-center md:text-left h-full w-full">
           <div

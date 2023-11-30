@@ -11,7 +11,8 @@ const ContactUs = () => {
       className="container mx-auto px-[16px] py-20 grid grid-cols-1  md:grid-cols-5 gap-4 scroll-mt-14"
     >
       <div className="col-span-2">
-        <h2 className="text-[2rem] text-black mb-[2rem] ">Contact Us</h2>
+        <h2 className="text-[2rem] text-black  ">Contact Us</h2>
+        <div className="mb-[2rem] h-[8px] w-[60px] bg-[#97BF04]"></div>
         <p className="max-w-[40ch] text-black text-[1.1rem] mb-[1.1rem]">
           All site visits and viewings are strictly by appointment only.
         </p>
@@ -95,7 +96,8 @@ const ContactUs = () => {
       </div>
 
       <div className="col-span-3 bg-[#e5e7eb] py-[32px] px-[48px] w-full">
-        <h2 className="text-[32px] text-black mb-[2rem]">Send us a Message</h2>
+        <h2 className="text-[32px] text-black">Send us a Message</h2>
+        <div className="mb-[2rem] h-[8px] w-[100px] bg-[#97BF04]"></div>
 
         <form>
           <div className="mb-4 flex flex-col gap-2">
@@ -104,7 +106,7 @@ const ContactUs = () => {
             </label>
             <input
               type="text"
-              className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+              className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
               placeholder="Mention your message purpose"
             />
           </div>
@@ -114,15 +116,15 @@ const ContactUs = () => {
               Your Region
             </label>
             <select
-              className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+              className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-400"
               placeholder="Mention your message purpose"
             >
-              <option selected value="1">
+              <option className="text-gray-800" selected value="1">
                 Select a country
               </option>
-              <option value="1">Australia</option>
-              <option value="2">United State</option>
-              <option value="3">England</option>
+              <option className="text-gray-800" value="1">Australia</option>
+              <option className="text-gray-800" value="2">United State</option>
+              <option className="text-gray-800" value="3">England</option>
             </select>
           </div>
 
@@ -135,7 +137,7 @@ const ContactUs = () => {
               </label>
               <input
                 type="text"
-                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your first name"
               />
             </div>
@@ -146,7 +148,7 @@ const ContactUs = () => {
               </label>
               <input
                 type="text"
-                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your last name"
               />
             </div>
@@ -157,7 +159,7 @@ const ContactUs = () => {
               <label className="text-base text-black  font-medium">Phone</label>
               <input
                 type="text"
-                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your phone number"
               />
             </div>
@@ -166,7 +168,7 @@ const ContactUs = () => {
               <label className="text-base text-black  font-medium">Email</label>
               <input
                 type="email"
-                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+                className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your email address"
               />
             </div>
@@ -177,7 +179,7 @@ const ContactUs = () => {
               Comments
             </label>
             <textarea
-              className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px]"
+              className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
               rows={4}
             ></textarea>
           </div>
