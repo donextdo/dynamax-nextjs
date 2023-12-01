@@ -18,25 +18,25 @@ export default function HotDeals() {
       </h1>
       <div className="mx-[30px] lg:mx-[0px] mt-2 h-[8px] w-[100px] bg-[#97BF04]"></div>
       <div className="grid 2xl:grid-cols-4 gap-14 w-full md:grid-cols-2 grid-cols-1 lg:px-20">
-        <Card 
-          image={hot5} 
-          name="19.6 East West Bed" 
-          gallery="EastWestBed" 
-        />
-        <Card 
+      <Card 
           image={hot4} 
-          name="19.6 Hillside" 
+          name="19.6FT Double Bunk On-Road" 
           gallery="Hillside" 
         />
         <Card
-          image={hot6}
-          name="18.6 Off Road Family Bunk"
-          gallery="OffRoadFamilyBunk"
+          image={hot1}
+          name="Dynamax Family Tourer - 21FT Triple Bunk On-Road"
+          gallery="DynamaxFamilyTourer"
         />
         <Card
-          image={hot1}
-          name="Dynamax Family Tourer"
-          gallery="DynamaxFamilyTourer"
+          image={hot6}
+          name="18.6FT Double Bunk - Off-Road"
+          gallery="OffRoadFamilyBunk"
+        />
+        <Card 
+          image={hot5} 
+          name="19.6FT East-West Double Bunk - Off-Road" 
+          gallery="EastWestBed" 
         />
       </div>
     </section>

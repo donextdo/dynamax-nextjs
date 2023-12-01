@@ -1,11 +1,11 @@
 import axios from "axios";
 
 export const eastwestURL =
-  "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-eastwestbed/east_west_bed-3.json";
+  "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-eastwestbed/east_west_bed-4.json";
 export const hillsydeURL =
-  "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hill-syde-3.json";
+  "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-hillsyde/hill-syde-4.json";
 export const offroadURL =
-  "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/off-road-family-bunk-3.1.json";
+  "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-offroad/off-road-family-bunk-4.json";
 export const familytourerURL =
   "https://dynamax-gallery.s3.ap-southeast-2.amazonaws.com/dynamax-familytourer/family-tourer.json";
 
