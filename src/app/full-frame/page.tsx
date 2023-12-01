@@ -36,16 +36,16 @@ export default function FullFrame({ searchParams }: PaginationParams) {
       try {
         if (parsedGallery === "EastWestBed") {
           getImages(eastwestURL, setGallery);
-          settitle("19.6 East West Bed");
+          settitle("19.6FT East-West Double Bunk - Off-Road");
         } else if (parsedGallery === "Hillside") {
           getImages(hillsydeURL, setGallery);
-          settitle("19.6 Hillside");
+          settitle("19.6FT Double Bunk On-Road");
         } else if (parsedGallery === "OffRoadFamilyBunk") {
           getImages(offroadURL, setGallery);
-          settitle("18.6 Off Road Family Bunk");
+          settitle("18.6FT Double Bunk - Off-Road");
         } else if (parsedGallery === "DynamaxFamilyTourer") {
           getImages(familytourerURL, setGallery);
-          settitle("Dynamax Family Tourer");
+          settitle("Dynamax Family Tourer - 21FT Triple Bunk On-Road");
         } else {
           console.log("please pass valid range");
         }

@@ -18,7 +18,7 @@ export default function Card({ image, name, gallery }: any) {
           className="object-contain w-full h-full "
         />
       </Link>
-      <div className="absolute bottom-4 left-4 rounded-2xl  bg-black bg-opacity-5 backdrop-blur-md p-3 flex flex-col">
+      <div className="absolute bottom-4 left-2 right-2 rounded-2xl  bg-black bg-opacity-5 backdrop-blur-md p-3 flex flex-col">
         <div className="flex items-center justify-between">
           <h3 className="text-[1.5rem] text-black font-[700]">{name}</h3>
         </div>
