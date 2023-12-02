@@ -97,13 +97,13 @@ const Fotter = () => {
 
                             <ul className="flex flex-col items-start gap-4">
                                 <li className="text-base font-medium capitalize relative">
-                                    <a href="#hot-deals" className='text-black hover:text-[#97BF04]'>hot deals</a>
+                                    <a href="#about-us" className='text-black hover:text-[#97BF04]'>about us</a>
                                 </li>
                                 <li className="text-base font-medium capitalize relative">
                                     <a href="#our-range" className='text-black hover:text-[#97BF04]'>our range</a>
                                 </li>
                                 <li className="text-base font-medium capitalize relative">
-                                    <a href="#warrenty" className='text-black hover:text-[#97BF04]'>service</a>
+                                    <a href="#warrenty" className='text-black hover:text-[#97BF04]'>warrenty</a>
                                 </li>
                                 <li className="text-base font-medium capitalize relative">
                                     <a href="#contact-us" className='text-black hover:text-[#97BF04]'>contact us</a>
