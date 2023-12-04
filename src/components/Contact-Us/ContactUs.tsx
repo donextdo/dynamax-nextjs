@@ -3,8 +3,59 @@ import React from "react";
 
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import { Field, Form, Formik, FormikErrors } from "formik";
+import { sendEmail } from "./EmailService";
+import Swal from "sweetalert2";
+
+interface FormValues {
+  about: string;
+  region: string;
+  first_name: string;
+  last_name: string;
+  phone: string;
+  email: string;
+  comment: string;
+}
+
+const initialValues: FormValues = {
+  about: "",
+  region: "",
+  first_name: "",
+  last_name: "",
+  phone: "",
+  email: "",
+  comment: "",
+};
+
+const validateForm = (values:FormValues): FormikErrors<FormValues> => {
+  const errors: FormikErrors<FormValues> = {};
+  return errors;
+}
 
 const ContactUs = () => {
+
+  const handleSubmit =async (values:FormValues) => {
+    try{
+      const templateId = "template_ee4gd5n";
+      await sendEmail(templateId,values);
+      Swal.fire({
+        position:"top",
+        icon: "success",
+        title: "Form sent successfully",
+        showCancelButton: false,
+        showConfirmButton: false,
+        timer: 1500,
+      })
+      // alert("Email sent successfully");
+    } catch(error){
+      Swal.fire({
+        position: "top",
+        icon: "error",
+        title: "Oops...",
+        text: "An error occurred while sending the form."
+      })
+    }
+  }
   return (
     <div
       id="contact-us"
@@ -99,12 +150,20 @@ const ContactUs = () => {
         <h2 className="text-[32px] text-black">Send us a Message</h2>
         <div className="mb-[2rem] h-[8px] w-[100px] bg-[#97BF04]"></div>
 
-        <form>
-          <div className="mb-4 flex flex-col gap-2">
-            <label className="text-base text-black font-medium">
+        <Formik
+          initialValues={initialValues}
+          validate={validateForm}
+          onSubmit={handleSubmit}
+        >
+          {({values,errors,handleChange, handleSubmit}) =>(
+            <Form noValidate onSubmit={handleSubmit}>
+              <div className="mb-4 flex flex-col gap-2">
+            <label className="text-base text-black font-medium" htmlFor="about">
               Enquiring About
             </label>
-            <input
+            <Field
+              id="about"
+              name="about"
               type="text"
               className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
               placeholder="Mention your message purpose"
@@ -112,30 +171,33 @@ const ContactUs = () => {
           </div>
 
           <div className="mb-4 flex flex-col gap-2">
-            <label className="text-base text-black font-medium">
+            <label className="text-base text-black font-medium" htmlFor="region">
               Your Region
             </label>
-            <select
+            <Field
+              as="select"
+              id="region"
+              name="region"
               className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-400"
               placeholder="Mention your message purpose"
             >
-              <option className="text-gray-800" selected value="1">
+              <option className="text-gray-800" selected value="">
                 Select a country
               </option>
               <option className="text-gray-800" value="1">Australia</option>
               <option className="text-gray-800" value="2">United State</option>
               <option className="text-gray-800" value="3">England</option>
-            </select>
+            </Field>
           </div>
-
-          {/* <h5 className="font-semibold mb-4 text-[1.2rem]">Your Details</h5> */}
 
           <div className="mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
-              <label className="text-base text-black font-medium">
+              <label className="text-base text-black font-medium" htmlFor="first_name">
                 First Name
               </label>
-              <input
+              <Field
+                id="first_name"
+                name="first_name"
                 type="text"
                 className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your first name"
@@ -143,10 +205,12 @@ const ContactUs = () => {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label className="text-base text-black  font-medium">
+              <label className="text-base text-black  font-medium" htmlFor="last_name">
                 Last Name
               </label>
-              <input
+              <Field
+                id="last_name"
+                name="last_name"
                 type="text"
                 className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your last name"
@@ -156,8 +220,10 @@ const ContactUs = () => {
 
           <div className="mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
-              <label className="text-base text-black  font-medium">Phone</label>
-              <input
+              <label className="text-base text-black  font-medium" htmlFor="phone">Phone</label>
+              <Field
+                id="phone"
+                name="phone"
                 type="text"
                 className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your phone number"
@@ -165,8 +231,10 @@ const ContactUs = () => {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label className="text-base text-black  font-medium">Email</label>
-              <input
+              <label className="text-base text-black  font-medium" htmlFor="email">Email</label>
+              <Field
+                id="email"
+                name="email"
                 type="email"
                 className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
                 placeholder="Your email address"
@@ -175,13 +243,16 @@ const ContactUs = () => {
           </div>
 
           <div className="mb-10 flex flex-col gap-2">
-            <label className="text-base text-black  font-medium">
+            <label className="text-base text-black  font-medium" htmlFor="comment">
               Comments
             </label>
-            <textarea
+            <Field
+              as="textarea"
+              id="comment"
+              name="comment"
               className="bg-transparent border-2 border-gray-600 font-medium focus:border-gray-600 focus:outline-none focus:shadow-none rounded py-[8px] px-[16px] text-gray-800"
               rows={4}
-            ></textarea>
+            ></Field>
           </div>
 
           <div className="text-center">
@@ -192,7 +263,10 @@ const ContactUs = () => {
               Submit
             </button>
           </div>
-        </form>
+
+            </Form>
+          )}
+        </Formik>
       </div>
     </div>
   );
