@@ -14,7 +14,7 @@ const CraftsmanshipLeft = ({changeOrder }: any) => {
           </h1>
           <div className="mx-[30px] lg:mx-[0px] mt-2 h-[8px] w-[100px] bg-[#97BF04]"></div>
 
-        <div className="flex-1 p-12 py-20 lg:pr-20 lg:pl-0 flex flex-col lg:flex-row justify-center md:col-span-2 text-center md:text-left h-full w-full">
+        <div className="flex-1 p-5 py-20 lg:pr-20 lg:pl-0 flex flex-col lg:flex-row justify-center md:col-span-2 text-center md:text-left h-full w-full">
           <div
             className={`md:col-span-3 lg:h-[30vh] rounded-2xl pl-3 ${
               changeOrder ? "order-2" : ""
