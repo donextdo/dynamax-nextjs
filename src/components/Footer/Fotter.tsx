@@ -91,7 +91,7 @@ const Fotter = () => {
                     </div>
                 </div> */}
                 <div className='flex items-center justify-center py-6 border-b-2 border-gray-600'>
-                    <div className='grid gap-[1.5rem] sm:gap-0 grid-cols-1 sm:grid-cols-2 '>
+                    <div className='flex gap-2 sm:grid sm:gap-[1.5rem] sm:gap-0 grid-cols-2 '>
                         <div className='w-full px-[15px]'>
                             <h5 className="text-[1.2rem] text-black  font-semibold mb-3 ">Quick Links</h5>
 
@@ -114,7 +114,7 @@ const Fotter = () => {
                         <div className='w-full px-[15px]'>
                             <h5 className="text-[1.2rem] text-black  font-semibold mb-3">Head Office</h5>
 
-                            <div className='flex gap-4 mb-6 '>
+                            <div className='flex flex-col sm:flex-row gap-4 mb-6 '>
                                 <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9.50001 0.5625C7.22163 0.565188 5.03734 1.47146 3.42628 3.08252C1.81522 4.69358 0.908947 6.87787 0.906259 9.15625C0.90353 11.0181 1.51171 12.8295 2.63751 14.3125C2.63751 14.3125 2.87188 14.6211 2.91017 14.6656L9.50001 22.4375L16.093 14.6617C16.1274 14.6203 16.3625 14.3125 16.3625 14.3125L16.3633 14.3102C17.4885 12.8278 18.0964 11.0173 18.0938 9.15625C18.0911 6.87787 17.1848 4.69358 15.5737 3.08252C13.9627 1.47146 11.7784 0.565188 9.50001 0.5625ZM9.50001 12.2812C8.88194 12.2812 8.27776 12.098 7.76385 11.7546C7.24995 11.4112 6.84941 10.9232 6.61288 10.3521C6.37636 9.78112 6.31448 9.15278 6.43505 8.54659C6.55563 7.9404 6.85326 7.38358 7.2903 6.94654C7.72734 6.5095 8.28416 6.21187 8.89035 6.0913C9.49654 5.97072 10.1249 6.0326 10.6959 6.26913C11.2669 6.50565 11.755 6.90619 12.0984 7.42009C12.4417 7.934 12.625 8.53818 12.625 9.15625C12.624 9.98473 12.2944 10.779 11.7086 11.3648C11.1227 11.9506 10.3285 12.2802 9.50001 12.2812Z" fill="#97BF04" />
                                 </svg>
@@ -124,7 +124,7 @@ const Fotter = () => {
                                 </p>
                             </div>
 
-                            <div className='flex gap-4 mb-6 items-center'>
+                            <div className='flex flex-col sm:flex-row gap-4 mb-6 sm:items-center'>
                                 <svg
                                     width="18"
                                     height="18"
@@ -142,7 +142,7 @@ const Fotter = () => {
                                 </p>
                             </div>
 
-                            <div className='flex gap-4 mb-6 items-center'>
+                            <div className='flex flex-col sm:flex-row gap-4 mb-6 sm:items-center'>
                                 <svg
                                     width="20"
                                     height="16"
@@ -165,7 +165,7 @@ const Fotter = () => {
 
                 </div>
                 <div className='text-center mt-4'>
-                    <p className="text-base text-black  font-semibold tracking-wide">Copyrights &copy; 2023 All Rights Reserved</p>
+                    <p className="text-[13px] text-[#676267] tracking-wide">Copyright &copy; 2023 Dynamx. All Rights Reserved.</p>
                     {/* <div className="flex flex-row gap-2">
                             <Link href="https://www.facebook.com">
                                 <button className="border rounded-full p-2 text-[#233a95] bg-white ">

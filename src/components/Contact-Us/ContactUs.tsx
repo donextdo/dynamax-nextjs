@@ -34,10 +34,9 @@ const validateForm = (values:FormValues): FormikErrors<FormValues> => {
 
 const ContactUs = () => {
 
-  const handleSubmit =async (values:FormValues) => {
+  const handleSubmit =async (values:FormValues, { resetForm }: any) => {
     try{
-      const templateId = "template_ee4gd5n";
-      await sendEmail(templateId,values);
+      await sendEmail(values);
       Swal.fire({
         position:"top",
         icon: "success",
@@ -46,8 +45,12 @@ const ContactUs = () => {
         showConfirmButton: false,
         timer: 1500,
       })
+
+      resetForm({ values: initialValues });
       // alert("Email sent successfully");
     } catch(error){
+      console.log("error", error);
+      
       Swal.fire({
         position: "top",
         icon: "error",
@@ -184,9 +187,9 @@ const ContactUs = () => {
               <option className="text-gray-800" selected value="">
                 Select a country
               </option>
-              <option className="text-gray-800" value="1">Australia</option>
-              <option className="text-gray-800" value="2">United State</option>
-              <option className="text-gray-800" value="3">England</option>
+              <option className="text-gray-800" value="Australia">Australia</option>
+              <option className="text-gray-800" value="United State">United State</option>
+              <option className="text-gray-800" value="England">England</option>
             </Field>
           </div>
 
